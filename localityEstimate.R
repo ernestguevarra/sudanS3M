@@ -12,9 +12,13 @@ names(localityResults) <- c("stateID", "state", "localityID", "locality",
 ## Process population data to use only states with all localities with population
 localityPop <- population_CBS
 
-## Work with localities in Kassala and Khartoum
-#subsetPop <- localityPop[localityPop$state %in% c("Kassala", "Khartoum"), ]
-subsetResults <- localityResults[localityResults$state %in% c("Kassala", "Khartoum"), ]
+## Work with localities in states with all localities with populations
+subsetResults <- localityResults[localityResults$state %in% c("East Darfur",
+                                                              "Kassala", 
+                                                              "Khartoum",
+                                                              "North Kourdofan",
+                                                              "Northern",
+                                                              "Sinar"), ]
 
 ##
 subStates <- list()
