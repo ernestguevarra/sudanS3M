@@ -2,24 +2,17 @@
 if(!require("remotes")) install.packages("remotes")
 if(!require("sudan")) remotes::install_github("spatialworks/sudan")
 library(openxlsx)
-
-## Read locality results
-localityResults <- read.csv("localityResultsDF.csv", stringsAsFactors = FALSE)
-names(localityResults) <- c("stateID", "state", "localityID", "locality", 
-                            "Indicator", "Type", "Estimate", "LCL", "UCL", "sd")
+library(stringr)
 
 ## Locality populations for "post-stratification"
 localityPops <- sudan::population_S3M
-
-## Work with localities in states with all localities with populations
-subsetResults <- localityResults[localityResults$state %in% c("East Darfur",
-                                                              "Kassala", 
-                                                              "Khartoum",
-                                                              "North Kourdofan",
-                                                              "Northern",
-                                                              "Sinar"), ]
+## Remove three localities not surveyed
+localityPops <- localityPops[!localityPops$locality %in% c("Umdoren", 
+                                                           "Alburam", 
+                                                           "Heban"), ]
 
 indicatorBase <- read.csv("indicatorBase.csv", stringsAsFactors = FALSE)
+locNames <- read.csv("locNames.csv", stringsAsFactors = FALSE)
 
 allStates <- list()
 
@@ -30,11 +23,6 @@ xlsxFiles <- xlsxFiles[xlsxFiles %in% paste("_", unique(locNames$state),
                                             ".xlsx", sep = "")]
 
 stateNames <- str_remove(str_remove(string = xlsxFiles, pattern = ".xlsx"), pattern = "_")
-##
-stateNames <- stateNames[stateNames %in% c("East Darfur",
-                                           "Kassala", 
-                                           "Khartoum",
-                                           "Sinar")]
 
 for(i in stateNames) {
   ## Create concatenating list for localities in current state
@@ -91,6 +79,7 @@ for(i in names(allStates))
   }
   stateResults <- data.frame(indicatorBase[ , 1], stateResults)
   names(stateResults) <- c("Indicator", "Estimator", "LCL", "UCL")
+  row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
 }
