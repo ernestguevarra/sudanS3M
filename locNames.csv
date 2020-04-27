@@ -1,0 +1,193 @@
+stateID,state,stateAR,localityID,locality,localityAR
+1,Northern,الولاية الشمالية,1,Dongola,دنقلا
+1,Northern,الولاية الشمالية,2,El Golid,القولد
+1,Northern,الولاية الشمالية,3,Merwoe,مروي
+1,Northern,الولاية الشمالية,4,El Daba,الدبة|الدبة
+1,Northern,الولاية الشمالية,5,Halfa,حلفا
+1,Northern,الولاية الشمالية,6,Delgo,دلقو
+1,Northern,الولاية الشمالية,7,El Burgaig,البرقيق
+2,River Nile,ولاية نهر النيل,8,El Matama,المتمة
+2,River Nile,ولاية نهر النيل,9,Shendi,شندي
+2,River Nile,ولاية نهر النيل,10,Abu Hamad,أبوحمد
+2,River Nile,ولاية نهر النيل,11,Barbar,بربر
+2,River Nile,ولاية نهر النيل,12,El Damar,الدامر
+2,River Nile,ولاية نهر النيل,13,Atbara,عطبرة
+2,River Nile,ولاية نهر النيل,14,El Buhaira,البحيرة
+3,Khartoum,ولاية الخرطوم,15,Khartoum,الخرطوم
+3,Khartoum,ولاية الخرطوم,16,Bahri,بحري
+3,Khartoum,ولاية الخرطوم,17,Um Durman,أم درمان
+3,Khartoum,ولاية الخرطوم,18,Um Bada,أمبدة
+3,Khartoum,ولاية الخرطوم,19,Jebel Awlia,جبل أولياء
+3,Khartoum,ولاية الخرطوم,20,Sharg Elneel,شرق النيل
+3,Khartoum,ولاية الخرطوم,21,Karrari,كرري
+4,Al-Gazeera,ولاية الجزيرة,22,Greater Medani,مدني
+4,Al-Gazeera,ولاية الجزيرة,23,Ganub Elgazira,جنوب الجزيرة
+4,Al-Gazeera,ولاية الجزيرة,24,El Hassahisa,الحصاحيصا
+4,Al-Gazeera,ولاية الجزيرة,25,El Kamlin,الكاملين
+4,Al-Gazeera,ولاية الجزيرة,26,Sharg El Gezira,شرق الجزيرة
+4,Al-Gazeera,ولاية الجزيرة,27,Um Elqura,أم القرى
+4,Al-Gazeera,ولاية الجزيرة,28,El Manaqil,المناقل
+4,Al-Gazeera,ولاية الجزيرة,29,El Qurashi,القرشي
+5,Red Sea,ولاية البحر الأحمر,30,Port Sudan,بورتسودان
+5,Red Sea,ولاية البحر الأحمر,31,Swakin,سواكن
+5,Red Sea,ولاية البحر الأحمر,32,El Ganab Elawlait,القنب و الأوليب
+5,Red Sea,ولاية البحر الأحمر,33,Sinkat,سنكات
+5,Red Sea,ولاية البحر الأحمر,34,Haya,هيا
+5,Red Sea,ولاية البحر الأحمر,35,Dordieb,دورديب
+5,Red Sea,ولاية البحر الأحمر,36,Tokar,طوكر
+5,Red Sea,ولاية البحر الأحمر,37,Agig,عقيق
+5,Red Sea,ولاية البحر الأحمر,38,Gabaot Elma-aadin,جبيت
+5,Red Sea,ولاية البحر الأحمر,39,Halaeeb,حلايب
+6,Kassala,ولاية كسلا,40,Kassala Town,مدينة كسلا
+6,Kassala,ولاية كسلا,41,Refi Kassla,ريفي كسلا
+6,Kassala,ولاية كسلا,42,Rural Western Kassala,غرب كسلا
+6,Kassala,ولاية كسلا,43,New Halfa,ريفي حلفا
+6,Kassala,ولاية كسلا,44,Refi Nahr Atbara,نهر عطبرة
+6,Kassala,ولاية كسلا,45,Rural Khashm Elgirba,ريفي القربة
+6,Kassala,ولاية كسلا,46,Rural Wad Elhilaiw,ريفي ود الحليو
+6,Kassala,ولاية كسلا,47,Rural Aroma,ريفي أروما
+6,Kassala,ولاية كسلا,48,Refi North Delta,شمال الدلتا
+6,Kassala,ولاية كسلا,49,Refi Hamashkureib,همشكوريب
+6,Kassala,ولاية كسلا,50,Rural Telkok,تلكوك
+7,Al-Gadarif,ولاية القضارف,51,Gedaref Town,القضارف
+7,Al-Gadarif,ولاية القضارف,52,Middle Geddaref,وسط القضارف
+7,Al-Gadarif,ولاية القضارف,53,Elbutana,البطانة
+7,Al-Gadarif,ولاية القضارف,54,El Fashaga,الفشقة
+7,Al-Gadarif,ولاية القضارف,55,El Rahad,الرهد
+7,Al-Gadarif,ولاية القضارف,56,Gala-a El Nahal,قلع النحل
+7,Al-Gadarif,ولاية القضارف,57,El Fao,الفاو
+7,Al-Gadarif,ولاية القضارف,58,El Qureisha,القريشة
+7,Al-Gadarif,ولاية القضارف,59,El Mafaza,المفازة
+7,Al-Gadarif,ولاية القضارف,60,Basunda,باسندة
+7,Al-Gadarif,ولاية القضارف,61,Western Galabat,القلابات الغربية
+7,Al-Gadarif,ولاية القضارف,62,Eastern Galabat,القلابات الغربية
+8,Sinar,ولاية سنار,63,Sennar,سنار
+8,Sinar,ولاية سنار,64,Sharg Sennar,سنار شرق
+8,Sinar,ولاية سنار,65,Sinja,سنجة
+8,Sinar,ولاية سنار,66,Abu Hujar,أبو حجار
+8,Sinar,ولاية سنار,67,El Dali,الدالي و المزموم
+8,Sinar,ولاية سنار,68,Es Suki,السوكي
+8,Sinar,ولاية سنار,69,Ed Dinder,الدندر
+9,Blue Nile,ولاية النيل الأزرق,70,Ed Damazine,الدمازين
+9,Blue Nile,ولاية النيل الأزرق,71,El Tadamon,التضامن
+9,Blue Nile,ولاية النيل الأزرق,72,El Roseiris,الروصيروص
+9,Blue Nile,ولاية النيل الأزرق,73,Baw,باو
+9,Blue Nile,ولاية النيل الأزرق,74,Geisan,قيسان
+9,Blue Nile,ولاية النيل الأزرق,75,El Kurmuk,الكرمك
+9,Blue Nile,ولاية النيل الأزرق,76,Wad El Mahi,ود الماحي
+10,White Nile,ولاية النيل الأبيض,77,Kosti,كوستي
+10,White Nile,ولاية النيل الأبيض,78,Guli,قلي
+10,White Nile,ولاية النيل الأبيض,79,Tendalti,تندلتي
+10,White Nile,ولاية النيل الأبيض,80,Es Salam,السلام
+10,White Nile,ولاية النيل الأبيض,81,Rabak,ربك
+10,White Nile,ولاية النيل الأبيض,82,El Jabalain,الجبلين
+10,White Nile,ولاية النيل الأبيض,83,El Diwaim,الدويم
+10,White Nile,ولاية النيل الأبيض,84,Um Rimta,أم رمتة
+10,White Nile,ولاية النيل الأبيض,85,El Gitaina,القطينة
+11,North Kourdofan,ولاية شمال كردفان,86,Sheikan,شيكان
+11,North Kourdofan,ولاية شمال كردفان,87,Um Rawaba,أم روابا
+11,North Kourdofan,ولاية شمال كردفان,88,Um Dam Haj Ahmed,أم دم
+11,North Kourdofan,ولاية شمال كردفان,89,El Rahad,الرهد
+11,North Kourdofan,ولاية شمال كردفان,90,Bara,بارا
+11,North Kourdofan,ولاية شمال كردفان,91,Gharb Bara,غرب بارا
+11,North Kourdofan,ولاية شمال كردفان,92,Soudari,سودري
+11,North Kourdofan,ولاية شمال كردفان,93,Gebrat El Sheikh,جبرة
+12,South Kourdofan,ولاية جنوب كردفان,94,Kadugli,كادوقلي
+12,South Kourdofan,ولاية جنوب كردفان,95,Reif Shargi,الريف الشرقي
+12,South Kourdofan,ولاية جنوب كردفان,96,Dilling,الدلنج
+12,South Kourdofan,ولاية جنوب كردفان,97,El Quoz,القوز
+12,South Kourdofan,ولاية جنوب كردفان,98,Habila,هبيلا
+12,South Kourdofan,ولاية جنوب كردفان,99,Abassiya,العباسية
+12,South Kourdofan,ولاية جنوب كردفان,100,El Rashad,الرشاد
+12,South Kourdofan,ولاية جنوب كردفان,101,Abu Jubaiha,أبوجبيهة
+12,South Kourdofan,ولاية جنوب كردفان,102,El Tadamon,التضامن
+12,South Kourdofan,ولاية جنوب كردفان,103,Talodi,تلودي
+12,South Kourdofan,ولاية جنوب كردفان,104,Ghadeer,قدير
+12,South Kourdofan,ولاية جنوب كردفان,105,El Leri,الليري
+12,South Kourdofan,ولاية جنوب كردفان,106,Abu Karshola,أبوكرشولا
+12,South Kourdofan,ولاية جنوب كردفان,107,Delami,دولامي
+12,South Kourdofan,ولاية جنوب كردفان,999,Heiban,999
+12,South Kourdofan,ولاية جنوب كردفان,999,Um Durein,999
+12,South Kourdofan,ولاية جنوب كردفان,999,El Buram,999
+13,West Kourdofan,ولاية غرب كردفان,108,Abu Zabad,أبو زبد
+13,West Kourdofan,ولاية غرب كردفان,109,ElKhiwai,الخوي
+13,West Kourdofan,ولاية غرب كردفان,110,Ghubaish,غبيش
+13,West Kourdofan,ولاية غرب كردفان,111,El Nuhud,النهود
+13,West Kourdofan,ولاية غرب كردفان,112,El Idia,الأضية
+13,West Kourdofan,ولاية غرب كردفان,113,Wad Benda,ودبندة
+13,West Kourdofan,ولاية غرب كردفان,114,Lagawa,لقاوة
+13,West Kourdofan,ولاية غرب كردفان,115,Elsunut,السنوط
+13,West Kourdofan,ولاية غرب كردفان,116,Keilik,كيلك
+13,West Kourdofan,ولاية غرب كردفان,117,Es Salam,السلام
+13,West Kourdofan,ولاية غرب كردفان,118,Babanusa,بابنوسة
+13,West Kourdofan,ولاية غرب كردفان,119,Abyei,أبيي
+13,West Kourdofan,ولاية غرب كردفان,120,El Dibab,الدبب
+13,West Kourdofan,ولاية غرب كردفان,121,El Meiram,الميرم
+14,North Darfur,ولاية شمال دارفور,125,El Fasher,الفاشر
+14,North Darfur,ولاية شمال دارفور,126,Tawila,طويلة
+14,North Darfur,ولاية شمال دارفور,127,Melit,مليط
+14,North Darfur,ولاية شمال دارفور,128,Um Kadada,أم كدادة
+14,North Darfur,ولاية شمال دارفور,129,Kebkabiya,كبكابية
+14,North Darfur,ولاية شمال دارفور,130,Kutum,كتم
+14,North Darfur,ولاية شمال دارفور,131,El Mahalha,المالحة
+14,North Darfur,ولاية شمال دارفور,132,Saraf Omra,سرف عمرة
+14,North Darfur,ولاية شمال دارفور,133,El Serief,السريف
+14,North Darfur,ولاية شمال دارفور,134,AlWaha,الواحة
+14,North Darfur,ولاية شمال دارفور,135,Dar Elsalam,دار السلام
+14,North Darfur,ولاية شمال دارفور,136,Kelemando,كلامندو
+14,North Darfur,ولاية شمال دارفور,137,El Tawisha,الطويشة
+14,North Darfur,ولاية شمال دارفور,138,Um Baru,أم برو
+14,North Darfur,ولاية شمال دارفور,139,El Lait,اللعيت
+14,North Darfur,ولاية شمال دارفور,140,ELkuma,الكومة
+14,North Darfur,ولاية شمال دارفور,141,El Tina,الطينة
+14,North Darfur,ولاية شمال دارفور,142,Kernoi,كرنوي
+15,South Darfur,ولاية جنوب دارفور,143,Nyala South,نيالا
+15,South Darfur,ولاية جنوب دارفور,144,Nyala North,شمال نيالا
+15,South Darfur,ولاية جنوب دارفور,145,Es Salam,السلام
+15,South Darfur,ولاية جنوب دارفور,146,El Wihda,الوحدة
+15,South Darfur,ولاية جنوب دارفور,147,Mershing,مرشنج
+15,South Darfur,ولاية جنوب دارفور,148,Beliel,بليل
+15,South Darfur,ولاية جنوب دارفور,149,Nitega,نتيقة
+15,South Darfur,ولاية جنوب دارفور,150,Sharg El Jabal,شمال الجبل
+15,South Darfur,ولاية جنوب دارفور,151,Kas,كاس
+15,South Darfur,ولاية جنوب دارفور,152,Shattaya,شطاية
+15,South Darfur,ولاية جنوب دارفور,153,Buram,برام
+15,South Darfur,ولاية جنوب دارفور,154,Gereida,قريضة
+15,South Darfur,ولاية جنوب دارفور,155,El Sunta,السنطة
+15,South Darfur,ولاية جنوب دارفور,156,El Radoum,الردوم
+15,South Darfur,ولاية جنوب دارفور,157,Tulus,تلس
+15,South Darfur,ولاية جنوب دارفور,158,Damso,دمسو
+15,South Darfur,ولاية جنوب دارفور,159,Ed Elfursan,عد الفرسان
+15,South Darfur,ولاية جنوب دارفور,160,Kubum,كبم
+15,South Darfur,ولاية جنوب دارفور,161,Kateila,كتيلا
+15,South Darfur,ولاية جنوب دارفور,162,Rehaid Elbirdi,الرهيد
+15,South Darfur,ولاية جنوب دارفور,163,Um Dafoug,دافوق
+16,Central Darfur,ولاية وسط دارفور,164,Zalingi,زالنجي
+16,Central Darfur,ولاية وسط دارفور,165,Wadi Salih,وادى صالح
+16,Central Darfur,ولاية وسط دارفور,166,Mukjar,مكجر
+16,Central Darfur,ولاية وسط دارفور,167,Central Jebel Mara,قولو
+16,Central Darfur,ولاية وسط دارفور,168,North Jebel Mara,روكورو
+16,Central Darfur,ولاية وسط دارفور,169,Bendasi,بندسي
+16,Central Darfur,ولاية وسط دارفور,170,Nertiti,نرتتي
+16,Central Darfur,ولاية وسط دارفور,171,Azum,أزوم
+16,Central Darfur,ولاية وسط دارفور,172,Um Dukhun,أم دخن
+17,East Darfur,ولاية شرق دارفور,173,Abu Jabra,أبوجابرة
+17,East Darfur,ولاية شرق دارفور,174,Abu Karinka,أبوكرنكا
+17,East Darfur,ولاية شرق دارفور,175,Bahr El Arab,بحر العرب
+17,East Darfur,ولاية شرق دارفور,176,Adila,عديلة
+17,East Darfur,ولاية شرق دارفور,177,Ed Dain,الضعين
+17,East Darfur,ولاية شرق دارفور,178,Assalaya,عسلاية
+17,East Darfur,ولاية شرق دارفور,179,El Firdous,الفردوس
+17,East Darfur,ولاية شرق دارفور,180,Shia-ria,شعرية
+17,East Darfur,ولاية شرق دارفور,181,Yassin,يس
+18,West Darfur,ولاية غرب دارفور,182,El Geneina,الجنينة
+18,West Darfur,ولاية غرب دارفور,183,Habila,هبيلا
+18,West Darfur,ولاية غرب دارفور,184,Kulbus,كلبس
+18,West Darfur,ولاية غرب دارفور,185,Beida,بيضة
+18,West Darfur,ولاية غرب دارفور,186,Foro Baranga,فور برنقا
+18,West Darfur,ولاية غرب دارفور,187,Kereneik,كرينك
+18,West Darfur,ولاية غرب دارفور,188,Sirba,سربا
+18,West Darfur,ولاية غرب دارفور,189,Jebel Moon,جبل مون
+18,West Darfur,ولاية غرب دارفور,192,Mornie camp,
+14,North Darfur,ولاية شمال دارفور,190,Zamzam camp,
+15,South Darfur,ولاية جنوب دارفور,191,Kalma camp,

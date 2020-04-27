@@ -6,11 +6,10 @@ library(openxlsx)
 ## Read locality results
 localityResults <- read.csv("localityResultsDF.csv", stringsAsFactors = FALSE)
 names(localityResults) <- c("stateID", "state", "localityID", "locality", 
-                            "Indicator", "Type", "Estimate", "LCL", "UCL")
+                            "Indicator", "Type", "Estimate", "LCL", "UCL", "sd")
 
-
-## Process population data to use only states with all localities with population
-localityPop <- population_CBS
+## Locality populations for "post-stratification"
+localityPop <- sudan::population_S3M
 
 ## Work with localities in states with all localities with populations
 subsetResults <- localityResults[localityResults$state %in% c("East Darfur",
@@ -31,7 +30,7 @@ for(i in unique(subsetResults$state)) {
   ##
   for(j in unique(x$locality)) {
     singleLocality <- subset(x, locality == j)
-    singleLocality$se <- with(singleLocality, (UCL - LCL) / (2 * 1.96))
+    singleLocality$se <- with(singleLocality, sd / sqrt(nrow(x)))
     subLocalities[[j]] <- subset(singleLocality, select = -c(LCL, UCL))
   }
   ##
@@ -64,7 +63,7 @@ for(i in  names(subStates))
     }
     pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights,
                                                                    na.rm = TRUE)
-    pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights,
+    pooledSE  <- sqrt(sum(standardErrors ^ 2 * weights / sum(weights,
                                                            na.rm = TRUE)))
     pooledLCL <- pooledEstimate - 1.96 * pooledSE
     pooledUCL <- pooledEstimate + 1.96 * pooledSE	
@@ -78,7 +77,7 @@ for(i in  names(subStates))
   row.names(results) <- 1:nrow(results)
   
   names(results) <- c("Indicator", "Estimate", "LCL", "UCL")
-  for(l in 3:ncol(results))
+  for(l in 2:ncol(results))
   {
     results[,l] <- as.numeric(results[,l])
   }
