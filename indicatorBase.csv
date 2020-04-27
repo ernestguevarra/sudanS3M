@@ -195,7 +195,7 @@ EPI : First dose OPV coverage for children below 12 months,Proportion
 EPI : Third dose OPV coverage for children below 12 months,Proportion
 EPI : First dose measles vaccine for children below 12 months,Proportion
 EPI : Second dose measles vaccine for children below 12 months,Proportion
-EPI : Full EPI coverage for children below 12 months,Proportion
+EPI : Full EPI coverage for children below 12 months (without rotavirus vaccine),Proportion
 Child : Vitamin A supplementation coverage,Proportion
 Carer : Haemoglobin (g/dl),Mean
 Carer : Any anaemia,Proportion
@@ -220,12 +220,6 @@ Carer : WASH : Hand-washing : After cleaning child,Proportion
 Carer : WASH : Hand-washing : Before eating,Proportion
 Carer : WASH : Hand-washing : Before feeding child,Proportion
 Carer : WASH : Hand-washing : Before preparing food,Proportion
-WASH : Uses improved drinking water sources,Proportion
-WASH : Improved drinking water source within 30 minutes,Proportion
-WASH : Uses improved toilet facilities,Proportion
-WASH : Uses non-shared improved toilet facilities,Proportion
-WASH : Open defecation,Proportion
-WASH : Has basic hand-washing facilities,Proportion
 WASH : Public pipe network in house,Proportion
 WASH : Public pipe network in yard,Proportion
 WASH : Public water pipe,Proportion
@@ -240,3 +234,11 @@ WASH : Protected ground water within 30 minutes,Proportion
 WASH : Protected well within 30 minutes,Proportion
 WASH : Filtered surface water within 30 minutes,Proportion
 WASH : Water transferred by car from improved sources within 30 minutes,Proportion
+WASH : Uses improved drinking water sources,Proportion
+WASH : Improved drinking water source within 30 minutes,Proportion
+WASH : Uses improved drinking water sources,Proportion
+WASH : Improved drinking water source within 30 minutes,Proportion
+WASH : Uses improved toilet facilities,Proportion
+WASH : Uses non-shared improved toilet facilities,Proportion
+WASH : Open defecation,Proportion
+WASH : Has basic hand-washing facilities,Proportion

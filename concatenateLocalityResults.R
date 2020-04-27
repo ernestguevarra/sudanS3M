@@ -27,7 +27,7 @@ for(i in xlsxFiles) {
   stateID <- unique(locNames$stateID[locNames$state == state])
   
   #indicatorBase <- data.frame(Indicator = currentState$Indicator)
-  indicatorBase <- read.csv("indicatorBase.csv")
+  indicatorBase <- read.csv("indicatorBase.csv", stringsAsFactors = FALSE)
   indicatorBase <- data.frame(Indicator = indicatorBase$Indicator)
   
   ## Get locality names from sheets
