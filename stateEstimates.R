@@ -22,7 +22,7 @@ xlsxFiles <- dir(path = "localityResults", pattern = "*.xlsx$")
 xlsxFiles <- xlsxFiles[xlsxFiles %in% paste("_", unique(locNames$state), 
                                             ".xlsx", sep = "")]
 
-stateNames <- str_remove(str_remove(string = xlsxFiles, pattern = ".xlsx"), pattern = "_")
+stateNames <- str_remove_all(string = xlsxFiles, pattern = ".xlsx|_")
 
 for(i in stateNames) {
   ## Create concatenating list for localities in current state
@@ -70,7 +70,7 @@ for(i in names(allStates))
       weights <- c(weights, localityPops$pop[localityPops$state == i & localityPops$locality == k])
     }
     pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
-    pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE)))
+    pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
     pooledLCL <- pooledEstimate - 1.96 * pooledSE
     pooledUCL <- pooledEstimate + 1.96 * pooledSE	
     ## Make a results row
