@@ -1,13 +1,15 @@
+################################################################################
+#
+# Post-stratification analysis using the survey package by T Lumley
+#
+################################################################################
 ## Libraries
+library(survey)
 library(openxlsx)
 library(stringr)
 
-## Locality populations for "post-stratification"
+## Read locality population data
 localityPops <- read.csv("localityPops.csv", stringsAsFactors = FALSE)
-## Remove three localities not surveyed
-localityPops <- localityPops[!localityPops$locality %in% c("Umdoren", 
-                                                           "Alburam", 
-                                                           "Heban"), ]
 
 indicatorBase <- read.csv("indicatorBase.csv", stringsAsFactors = FALSE)
 locNames <- read.csv("locNames.csv", stringsAsFactors = FALSE)
@@ -31,13 +33,13 @@ for(i in stateNames) {
     resultsCurrentLocality <- read.xlsx(xlsxFile = paste("localityResults/_", i, ".xlsx", sep = ""),
                                         sheet = j)
     names(resultsCurrentLocality) <- c("Indicator", "Type", "Estimate", "LCL", "UCL", "sd")
-    resultsCurrentLocality$se <- with(resultsCurrentLocality, sd)
-    
+    #resultsCurrentLocality$se <- with(resultsCurrentLocality, sd)
     localitiesCurrentState[[j]] <- subset(resultsCurrentLocality, select = -c(LCL, UCL, sd))
   }
   ##
   allStates[[i]] <- localitiesCurrentState
 }
+
 
 ## Accumulator for pooled results
 allResults <- NULL
@@ -63,33 +65,30 @@ for(i in names(allStates))
       ## Get estimates for current indicator, SE, and population weight in each
       ## locality in current state
       estimates <- c(estimates, allStates[[i]][[k]]$Estimate[j])
-      standardErrors <- c(standardErrors, allStates[[i]][[k]]$se[j])
+      #standardErrors <- c(standardErrors, allStates[[i]][[k]]$se[j])
       ## Get weight for state
       weights <- c(weights, localityPops$pop[localityPops$state == i & localityPops$locality == k])
     }
-    pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
-    pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
-    
-    ## LCL
-    pooledLCL <- pooledEstimate - 1.96 * pooledSE
-    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
-    
-    ## UCL
-    pooledUCL <- pooledEstimate + 1.96 * pooledSE
-    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
-    
+    currentDF <- data.frame(state = i, locality = names(currentState), estimates, weights)
+    ## Declare design
+    currentDesign <- svydesign(ids = ~1, data = currentDF, weights = weights)
+    ##
+    weightedEstimate <- svymean(~estimates, design = currentDesign)[1]
+    weightedLCL <- confint(svymean(~estimates, design = currentDesign))[1]
+    weightedUCL <- confint(svymean(~estimates, design = currentDesign))[2]
     ## Make a results row
-    resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
+    resultRow <- c(weightedEstimate, weightedLCL, weightedUCL)
     stateResults <- rbind(stateResults, resultRow)
   }
-  stateResults <- data.frame(indicatorBase[ , 1], indicatorBase[ , 2], stateResults)
-  names(stateResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+  stateResults <- data.frame(indicatorBase[ , 1], stateResults)
+  names(stateResults) <- c("Indicator", "Estimator", "LCL", "UCL")
   row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
 }
 
-saveWorkbook(wb = resultsWB, file = "_byStates.xlsx", overwrite = TRUE)
+saveWorkbook(wb = resultsWB, file = "_byStatesV2.xlsx", overwrite = TRUE)
+
 
 ## Perform national estimation
 
@@ -107,7 +106,7 @@ for(i in 1:nrow(indicatorBase))
     currentState <- allStates[[j]]
     ## Cycle through localities in current state
     for(k in names(currentState))
-      {
+    {
       ## Get estimates for current indicator, SE, and population weight in each
       ## locality in current state
       estimates <- c(estimates, allStates[[j]][[k]]$Estimate[i])
@@ -116,19 +115,15 @@ for(i in 1:nrow(indicatorBase))
       weights <- c(weights, localityPops$pop[localityPops$state == j & localityPops$locality == k])
     }
   }
-  pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
-  pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
-    
-  ## LCL
-  pooledLCL <- pooledEstimate - 1.96 * pooledSE
-  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
-    
-  ## UCL
-  pooledUCL <- pooledEstimate + 1.96 * pooledSE
-  pooledUCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
-    
+  currentDF <- data.frame(estimates, weights)
+  ## Declare design
+  currentDesign <- svydesign(ids = ~1, data = currentDF, weights = weights)
+  ##
+  weightedEstimate <- svymean(~estimates, design = currentDesign)[1]
+  weightedLCL <- confint(svymean(~estimates, design = currentDesign))[1]
+  weightedUCL <- confint(svymean(~estimates, design = currentDesign))[2]
   ## Make a results row
-  resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
+  resultRow <- c(weightedEstimate, weightedLCL, weightedUCL)
   nationalResults <- rbind(nationalResults, resultRow)
 }
 
@@ -138,7 +133,5 @@ row.names(nationalResults) <- 1:nrow(nationalResults)
 
 writeData(wb = resultsWB, sheet = "national", x = nationalResults)
 
-saveWorkbook(wb = resultsWB, file = "_national.xlsx", overwrite = TRUE)
-
-
+saveWorkbook(wb = resultsWB, file = "_nationalV2.xlsx", overwrite = TRUE)
 
