@@ -32,6 +32,7 @@ for(i in stateNames) {
                                         sheet = j)
     names(resultsCurrentLocality) <- c("Indicator", "Type", "Estimate", "LCL", "UCL", "sd")
     resultsCurrentLocality$se <- with(resultsCurrentLocality, sd)
+    
     localitiesCurrentState[[j]] <- subset(resultsCurrentLocality, select = -c(LCL, UCL, sd))
   }
   ##
@@ -68,14 +69,21 @@ for(i in names(allStates))
     }
     pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
     pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
+    
+    ## LCL
     pooledLCL <- pooledEstimate - 1.96 * pooledSE
-    pooledUCL <- pooledEstimate + 1.96 * pooledSE	
+    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
+    
+    ## UCL
+    pooledUCL <- pooledEstimate + 1.96 * pooledSE
+    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+    
     ## Make a results row
     resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
     stateResults <- rbind(stateResults, resultRow)
   }
-  stateResults <- data.frame(indicatorBase[ , 1], stateResults)
-  names(stateResults) <- c("Indicator", "Estimator", "LCL", "UCL")
+  stateResults <- data.frame(indicatorBase[ , 1], indicatorBase[ , 2], stateResults)
+  names(stateResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
   row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
@@ -83,8 +91,54 @@ for(i in names(allStates))
 
 saveWorkbook(wb = resultsWB, file = "_byStates.xlsx", overwrite = TRUE)
 
+## Perform national estimation
 
+## Accumulator for pooled results
+nationalResults <- NULL
+resultsWB <- createWorkbook()
+addWorksheet(wb = resultsWB, sheetName = "national")
 
+## Cycle through states
+for(i in 1:nrow(indicatorBase))
+{
+  estimates <- standardErrors <- weights <- NULL
+  for(j in names(allStates)) {
+    ##
+    currentState <- allStates[[j]]
+    ## Cycle through localities in current state
+    for(k in names(currentState))
+      {
+      ## Get estimates for current indicator, SE, and population weight in each
+      ## locality in current state
+      estimates <- c(estimates, allStates[[j]][[k]]$Estimate[i])
+      standardErrors <- c(standardErrors, allStates[[j]][[k]]$se[i])
+      ## Get weight for state
+      weights <- c(weights, localityPops$pop[localityPops$state == j & localityPops$locality == k])
+    }
+  }
+  pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
+  pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
+    
+  ## LCL
+  pooledLCL <- pooledEstimate - 1.96 * pooledSE
+  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
+    
+  ## UCL
+  pooledUCL <- pooledEstimate + 1.96 * pooledSE
+  pooledUCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+    
+  ## Make a results row
+  resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
+  nationalResults <- rbind(nationalResults, resultRow)
+}
+
+nationalResults <- data.frame(indicatorBase[ , 1], indicatorBase[ , 2], nationalResults)
+names(nationalResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+row.names(nationalResults) <- 1:nrow(nationalResults)
+
+writeData(wb = resultsWB, sheet = "national", x = nationalResults)
+
+saveWorkbook(wb = resultsWB, file = "_national.xlsx", overwrite = TRUE)
 
 
 
