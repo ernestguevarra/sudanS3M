@@ -70,13 +70,22 @@ for(i in names(allStates))
     pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
     pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
     
-    ## LCL
+    ## Correct for LCL less than 0
     pooledLCL <- pooledEstimate - 1.96 * pooledSE
-    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
-    
-    ## UCL
+    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0 & pooledEstimate > 0.0001, 0.0001, pooledLCL)
+    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0 & pooledEstimate >= 0 & pooledEstimate < 0.0001, 0, pooledLCL)
+
+    ## Correct for UCL greater than 1
     pooledUCL <- pooledEstimate + 1.96 * pooledSE
-    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledUCL > 1, 0.9999, pooledUCL)
+
+    ## Convert proportion estimates to percentages and round off estimates to 2 decimal places
+    pooledEstimate <- ifelse(indicatorBase$Type[j] == "Proportion", pooledEstimate * 100, pooledEstimate)
+    pooledEstimate <- round(pooledEstimate, digits = 2)
+    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion", pooledLCL * 100, pooledLCL)
+    pooledLCL <- round(pooledLCL, digits = 2)    
+    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion", pooledUCL * 100, pooledUCL)
+    pooledUCL <- round(pooledUCL, digits = 2)    
     
     ## Make a results row
     resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
@@ -108,10 +117,10 @@ for(i in stateNames) {
   ## Create concatenating list for localities in current state
   localitiesCurrentState <- list()
   ## Get localities for current state results file
-  localityNames <- getSheetNames(file = paste("localityResults/_", i, ".xlsx", sep = ""))
+  localityNames <- getSheetNames(file = paste("localityResults/_", i, ".BySex.xlsx", sep = ""))
   ##
   for(j in localityNames) {
-    resultsCurrentLocality <- read.xlsx(xlsxFile = paste("localityResults/_", i, ".xlsx", sep = ""),
+    resultsCurrentLocality <- read.xlsx(xlsxFile = paste("localityResults/_", i, ".BySex.xlsx", sep = ""),
                                         sheet = j)
     names(resultsCurrentLocality) <- c("Indicator", "Type", "Estimate", "LCL", "UCL", "sd")
     resultsCurrentLocality$se <- with(resultsCurrentLocality, sd)
@@ -153,13 +162,22 @@ for(i in names(allStatesEdu))
     pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
     pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
     
-    ## LCL
+    ## Correct for LCL less than 0
     pooledLCL <- pooledEstimate - 1.96 * pooledSE
-    pooledLCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
+    pooledLCL <- ifelse(indicatorBaseEdu$Type[j] == "Proportion" & pooledLCL < 0 & pooledEstimate > 0.0001, 0.0001, pooledLCL)
+    pooledLCL <- ifelse(indicatorBaseEdu$Type[j] == "Proportion" & pooledLCL < 0 & pooledEstimate >= 0 & pooledEstimate < 0.0001, 0, pooledLCL)
     
-    ## UCL
+    ## Correct for UCL greater than 1
     pooledUCL <- pooledEstimate + 1.96 * pooledSE
-    pooledUCL <- ifelse(indicatorBase$Type[j] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+    pooledUCL <- ifelse(indicatorBaseEdu$Type[j] == "Proportion" & pooledUCL > 1, 0.9999, pooledUCL)
+    
+    ## Convert proportion estimates to percentages and round off estimates to 2 decimal places
+    pooledEstimate <- ifelse(indicatorBaseEdu$Type[j] == "Proportion", pooledEstimate * 100, pooledEstimate)
+    pooledEstimate <- round(pooledEstimate, digits = 2)
+    pooledLCL <- ifelse(indicatorBaseEdu$Type[j] == "Proportion", pooledLCL * 100, pooledLCL)
+    pooledLCL <- round(pooledLCL, digits = 2)    
+    pooledUCL <- ifelse(indicatorBaseEdu$Type[j] == "Proportion", pooledUCL * 100, pooledUCL)
+    pooledUCL <- round(pooledUCL, digits = 2)
     
     ## Make a results row
     resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
@@ -202,14 +220,23 @@ for(i in 1:nrow(indicatorBase))
   pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
   pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
     
-  ## LCL
+  ## Correct for LCL less than 0
   pooledLCL <- pooledEstimate - 1.96 * pooledSE
-  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
+  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledLCL < 0 & pooledEstimate > 0.0001, 0.0001, pooledLCL)
+  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledLCL < 0 & pooledEstimate >= 0 & pooledEstimate < 0.0001, 0, pooledLCL)
     
-  ## UCL
+  ## Correct for UCL greater than 1
   pooledUCL <- pooledEstimate + 1.96 * pooledSE
-  pooledUCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+  pooledUCL <- ifelse(indicatorBase$Type[i] == "Proportion" & pooledUCL > 1, 0.9999, pooledUCL)
     
+  ## Convert proportion estimates to percentages and round off estimates to 2 decimal places
+  pooledEstimate <- ifelse(indicatorBase$Type[i] == "Proportion", pooledEstimate * 100, pooledEstimate)
+  pooledEstimate <- round(pooledEstimate, digits = 2)
+  pooledLCL <- ifelse(indicatorBase$Type[i] == "Proportion", pooledLCL * 100, pooledLCL)
+  pooledLCL <- round(pooledLCL, digits = 2)    
+  pooledUCL <- ifelse(indicatorBase$Type[i] == "Proportion", pooledUCL * 100, pooledUCL)
+  pooledUCL <- round(pooledUCL, digits = 2)
+  
   ## Make a results row
   resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
   nationalResults <- rbind(nationalResults, resultRow)
@@ -251,13 +278,22 @@ for(i in 1:nrow(indicatorBaseEdu))
   pooledEstimate <- sum(estimates * weights, na.rm = TRUE) / sum(weights, na.rm = TRUE)
   pooledSE  <- sqrt(sum(standardErrors^2 * weights / sum(weights, na.rm = TRUE), na.rm = TRUE))
   
-  ## LCL
+  ## Correct for LCL less than 0
   pooledLCL <- pooledEstimate - 1.96 * pooledSE
-  pooledLCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion" & pooledLCL < 0, 0.0001, pooledLCL)
+  pooledLCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion" & pooledLCL < 0 & pooledEstimate > 0.0001, 0.0001, pooledLCL)
+  pooledLCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion" & pooledLCL < 0 & pooledEstimate >= 0 & pooledEstimate < 0.0001, 0, pooledLCL)
   
-  ## UCL
+  ## Correct for UCL greater than 1
   pooledUCL <- pooledEstimate + 1.96 * pooledSE
-  pooledUCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion" & pooledUCL > 100, 0.9999, pooledUCL)
+  pooledUCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion" & pooledUCL > 1, 0.9999, pooledUCL)
+  
+  ## Convert proportion estimates to percentages and round off estimates to nearest 2 decimal places
+  pooledEstimate <- ifelse(indicatorBaseEdu$Type[i] == "Proportion", pooledEstimate * 100, pooledEstimate)
+  pooledEstimate <- round(pooledEstimate, digits = 2)
+  pooledLCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion", pooledLCL * 100, pooledLCL)
+  pooledLCL <- round(pooledLCL, digits = 2)    
+  pooledUCL <- ifelse(indicatorBaseEdu$Type[i] == "Proportion", pooledUCL * 100, pooledUCL)
+  pooledUCL <- round(pooledUCL, digits = 2)
   
   ## Make a results row
   resultRow <- c(pooledEstimate, pooledLCL, pooledUCL)
