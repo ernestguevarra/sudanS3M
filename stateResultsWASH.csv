@@ -1,4 +1,4 @@
-"ID","State","Indicator","Type","Estimate","LCL","UCL"
+"stateID","state","indicator","type","estimate","lcl","ucl"
 1,"Northern","WASH: Uses improved drinking water sources","Proportion",96.14,93.74,98.53
 1,"Northern","WASH: Public pipe network in house","Proportion",83.51,71.4,95.62
 1,"Northern","WASH: Public pipe network in yard","Proportion",0.82,0.01,3.32

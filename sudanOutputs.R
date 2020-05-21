@@ -84,8 +84,8 @@ for(i in stateNames) {
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("ID", "State", "Indicator", 
-                                  "Type", "Estimate", "LCL", "UCL")
+  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
+                                  "type", "estimate", "lcl", "ucl")
 
   ## Concatenate results
   allStates <- rbind(allStates, resultsCurrentState)
@@ -112,8 +112,8 @@ for(i in stateNames) {
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("ID", "State", "Indicator", 
-                                  "Type", "Estimate", "LCL", "UCL")
+  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
+                                  "type", "estimate", "lcl", "ucl")
   
   ## Concatenate results
   allStatesEdu <- rbind(allStatesEdu, resultsCurrentState)
@@ -140,8 +140,8 @@ for(i in stateNames) {
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("ID", "State", "Indicator", 
-                                  "Type", "Estimate", "LCL", "UCL")
+  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
+                                  "type", "estimate", "lcl", "ucl")
   
   ## Concatenate results
   allStatesWASH <- rbind(allStatesWASH, resultsCurrentState)

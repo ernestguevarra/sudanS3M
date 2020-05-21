@@ -194,6 +194,7 @@ EPI : Third dose pentavelent vaccine coverage for children below 12 months,Propo
 EPI : First dose OPV coverage for children below 12 months,Proportion
 EPI : Third dose OPV coverage for children below 12 months,Proportion
 EPI : First dose measles vaccine for children below 12 months,Proportion
+EPI : Second dose measles vaccine for children below 12 months,Proportion
 EPI : Full EPI coverage for children below 12 months (without rotavirus vaccine),Proportion
 Child : Vitamin A supplementation coverage,Proportion
 Carer : Haemoglobin (g/dl),Mean
