@@ -1,4 +1,4 @@
-"stateID","state","indicator","type","estimate","lcl","ucl"
+"stateID","state","Indicator","Type","Estimate","X95..LCL","X95..UCL"
 7,"Al-Gadarif","ANC : Gestational age (months) at first ANC visit for most recent pregnancy","Mean",3.46,3.06,3.87
 7,"Al-Gadarif","ANC : Number of ANC visits during most recent pregnancy","Mean",3.09,2.63,3.54
 7,"Al-Gadarif","ANC : Did not attend ANC during most recent pregnancy","Proportion",18.65,10.49,26.82
@@ -236,8 +236,6 @@
 7,"Al-Gadarif","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",17.9,4.66,31.15
 7,"Al-Gadarif","WASH : Uses improved drinking water sources","Proportion",93.2,84.26,99.99
 7,"Al-Gadarif","WASH : Improved drinking water source within 30 minutes","Proportion",83.84,72.99,94.68
-7,"Al-Gadarif","WASH : Uses improved drinking water sources","Proportion",93.21,84.22,99.99
-7,"Al-Gadarif","WASH : Improved drinking water source within 30 minutes","Proportion",83.85,73.26,94.44
 7,"Al-Gadarif","WASH : Uses improved toilet facilities","Proportion",25.27,14.62,35.92
 7,"Al-Gadarif","WASH : Uses non-shared improved toilet facilities","Proportion",17.56,8.5,26.63
 7,"Al-Gadarif","WASH : Open defecation","Proportion",55.08,40.91,69.25
@@ -479,8 +477,6 @@
 4,"Al-Gazeera","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",6.16,0.01,15.77
 4,"Al-Gazeera","WASH : Uses improved drinking water sources","Proportion",99.07,95.36,99.99
 4,"Al-Gazeera","WASH : Improved drinking water source within 30 minutes","Proportion",96.38,89.34,99.99
-4,"Al-Gazeera","WASH : Uses improved drinking water sources","Proportion",99.29,95.69,99.99
-4,"Al-Gazeera","WASH : Improved drinking water source within 30 minutes","Proportion",96.38,89.24,99.99
 4,"Al-Gazeera","WASH : Uses improved toilet facilities","Proportion",42,26.85,57.15
 4,"Al-Gazeera","WASH : Uses non-shared improved toilet facilities","Proportion",27.61,16.84,38.37
 4,"Al-Gazeera","WASH : Open defecation","Proportion",26.44,10.8,42.08
@@ -722,8 +718,6 @@
 9,"Blue Nile","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",10.07,0.38,19.75
 9,"Blue Nile","WASH : Uses improved drinking water sources","Proportion",99.24,96.03,99.99
 9,"Blue Nile","WASH : Improved drinking water source within 30 minutes","Proportion",86.64,77.04,96.23
-9,"Blue Nile","WASH : Uses improved drinking water sources","Proportion",99.23,95.93,99.99
-9,"Blue Nile","WASH : Improved drinking water source within 30 minutes","Proportion",86.59,77.05,96.12
 9,"Blue Nile","WASH : Uses improved toilet facilities","Proportion",44.29,30.23,58.36
 9,"Blue Nile","WASH : Uses non-shared improved toilet facilities","Proportion",37.76,24.78,50.75
 9,"Blue Nile","WASH : Open defecation","Proportion",20.51,4.91,36.1
@@ -965,8 +959,6 @@
 16,"Central Darfur","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",14.64,11.57,17.71
 16,"Central Darfur","WASH : Uses improved drinking water sources","Proportion",86.69,81.86,91.52
 16,"Central Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",74.94,61.69,88.18
-16,"Central Darfur","WASH : Uses improved drinking water sources","Proportion",86.65,81.8,91.5
-16,"Central Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",64.86,51.36,78.36
 16,"Central Darfur","WASH : Uses improved toilet facilities","Proportion",32.11,18.51,45.71
 16,"Central Darfur","WASH : Uses non-shared improved toilet facilities","Proportion",35.62,23.09,48.14
 16,"Central Darfur","WASH : Open defecation","Proportion",45.98,29.26,62.7
@@ -1208,8 +1200,6 @@
 17,"East Darfur","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",5.13,0.01,10.78
 17,"East Darfur","WASH : Uses improved drinking water sources","Proportion",99.84,98.25,99.99
 17,"East Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",77.84,66.14,89.54
-17,"East Darfur","WASH : Uses improved drinking water sources","Proportion",99.84,98.25,99.99
-17,"East Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",77.84,65.5,90.18
 17,"East Darfur","WASH : Uses improved toilet facilities","Proportion",17.4,8.82,25.97
 17,"East Darfur","WASH : Uses non-shared improved toilet facilities","Proportion",9.79,3.15,16.43
 17,"East Darfur","WASH : Open defecation","Proportion",39.08,25.77,52.39
@@ -1451,8 +1441,6 @@
 6,"Kassala","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",4.31,0.01,10.29
 6,"Kassala","WASH : Uses improved drinking water sources","Proportion",81.89,70.32,93.45
 6,"Kassala","WASH : Improved drinking water source within 30 minutes","Proportion",65.24,52.62,77.87
-6,"Kassala","WASH : Uses improved drinking water sources","Proportion",81.76,69.77,93.74
-6,"Kassala","WASH : Improved drinking water source within 30 minutes","Proportion",65.2,52.8,77.61
 6,"Kassala","WASH : Uses improved toilet facilities","Proportion",23.72,14.57,32.87
 6,"Kassala","WASH : Uses non-shared improved toilet facilities","Proportion",19.97,11.78,28.17
 6,"Kassala","WASH : Open defecation","Proportion",47.57,34.39,60.74
@@ -1694,8 +1682,6 @@
 3,"Khartoum","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",2.97,0.01,7.26
 3,"Khartoum","WASH : Uses improved drinking water sources","Proportion",97.81,92.63,99.99
 3,"Khartoum","WASH : Improved drinking water source within 30 minutes","Proportion",93.9,85.47,99.99
-3,"Khartoum","WASH : Uses improved drinking water sources","Proportion",97.54,91.82,99.99
-3,"Khartoum","WASH : Improved drinking water source within 30 minutes","Proportion",93.95,86.13,99.99
 3,"Khartoum","WASH : Uses improved toilet facilities","Proportion",57.35,43.82,70.89
 3,"Khartoum","WASH : Uses non-shared improved toilet facilities","Proportion",52.9,40.2,65.61
 3,"Khartoum","WASH : Open defecation","Proportion",4.01,0.01,10.42
@@ -1937,8 +1923,6 @@
 14,"North Darfur","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",7.42,1.4,13.44
 14,"North Darfur","WASH : Uses improved drinking water sources","Proportion",93.04,84.52,99.99
 14,"North Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",68.31,53.94,82.68
-14,"North Darfur","WASH : Uses improved drinking water sources","Proportion",93.1,84.46,99.99
-14,"North Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",68.53,54.15,82.9
 14,"North Darfur","WASH : Uses improved toilet facilities","Proportion",35.67,22.59,48.75
 14,"North Darfur","WASH : Uses non-shared improved toilet facilities","Proportion",30.96,18.9,43.03
 14,"North Darfur","WASH : Open defecation","Proportion",36.84,23.37,50.32
@@ -2180,8 +2164,6 @@
 11,"North Kourdofan","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",6.31,0.09,12.53
 11,"North Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.88,86.09,99.99
 11,"North Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",74.66,62.23,87.08
-11,"North Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.89,86.16,99.99
-11,"North Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",74.92,62.29,87.55
 11,"North Kourdofan","WASH : Uses improved toilet facilities","Proportion",23.42,14.06,32.78
 11,"North Kourdofan","WASH : Uses non-shared improved toilet facilities","Proportion",18.06,9.86,26.25
 11,"North Kourdofan","WASH : Open defecation","Proportion",56.22,44.02,68.41
@@ -2423,8 +2405,6 @@
 1,"Northern","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",2.2,0.01,7
 1,"Northern","WASH : Uses improved drinking water sources","Proportion",99.17,96.04,99.99
 1,"Northern","WASH : Improved drinking water source within 30 minutes","Proportion",98.52,94.83,99.99
-1,"Northern","WASH : Uses improved drinking water sources","Proportion",99.16,96.7,99.99
-1,"Northern","WASH : Improved drinking water source within 30 minutes","Proportion",98.46,94.61,99.99
 1,"Northern","WASH : Uses improved toilet facilities","Proportion",87.04,77.25,96.83
 1,"Northern","WASH : Uses non-shared improved toilet facilities","Proportion",83.55,73.59,93.51
 1,"Northern","WASH : Open defecation","Proportion",3.36,0.01,7.66
@@ -2666,8 +2646,6 @@
 5,"Red Sea","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",14.19,4.57,23.81
 5,"Red Sea","WASH : Uses improved drinking water sources","Proportion",74.51,59,90.01
 5,"Red Sea","WASH : Improved drinking water source within 30 minutes","Proportion",52.07,38.31,65.82
-5,"Red Sea","WASH : Uses improved drinking water sources","Proportion",74.07,58.49,89.64
-5,"Red Sea","WASH : Improved drinking water source within 30 minutes","Proportion",52.34,37.99,66.69
 5,"Red Sea","WASH : Uses improved toilet facilities","Proportion",16.67,8.89,24.45
 5,"Red Sea","WASH : Uses non-shared improved toilet facilities","Proportion",14.72,7.06,22.38
 5,"Red Sea","WASH : Open defecation","Proportion",70.02,58.92,81.11
@@ -2909,8 +2887,6 @@
 2,"River Nile","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",2.47,0.01,5.56
 2,"River Nile","WASH : Uses improved drinking water sources","Proportion",96.82,92.76,99.99
 2,"River Nile","WASH : Improved drinking water source within 30 minutes","Proportion",92.42,85.45,99.39
-2,"River Nile","WASH : Uses improved drinking water sources","Proportion",96.94,92.53,99.99
-2,"River Nile","WASH : Improved drinking water source within 30 minutes","Proportion",92.37,85.68,99.05
 2,"River Nile","WASH : Uses improved toilet facilities","Proportion",39.8,28.08,51.51
 2,"River Nile","WASH : Uses non-shared improved toilet facilities","Proportion",34.86,23.52,46.2
 2,"River Nile","WASH : Open defecation","Proportion",9.17,1.73,16.61
@@ -3152,8 +3128,6 @@
 8,"Sinar","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",6.48,0.01,14.23
 8,"Sinar","WASH : Uses improved drinking water sources","Proportion",100,98.84,99.99
 8,"Sinar","WASH : Improved drinking water source within 30 minutes","Proportion",95.03,89.11,99.99
-8,"Sinar","WASH : Uses improved drinking water sources","Proportion",100,98.93,99.99
-8,"Sinar","WASH : Improved drinking water source within 30 minutes","Proportion",95.1,89.23,99.99
 8,"Sinar","WASH : Uses improved toilet facilities","Proportion",35.62,25.18,46.06
 8,"Sinar","WASH : Uses non-shared improved toilet facilities","Proportion",23.6,15.52,31.67
 8,"Sinar","WASH : Open defecation","Proportion",39.8,27.94,51.67
@@ -3395,8 +3369,6 @@
 15,"South Darfur","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",15.38,7.81,22.95
 15,"South Darfur","WASH : Uses improved drinking water sources","Proportion",94.97,84.26,99.99
 15,"South Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",76.24,60.46,92.01
-15,"South Darfur","WASH : Uses improved drinking water sources","Proportion",94.94,86.49,99.99
-15,"South Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",76.1,61.3,90.89
 15,"South Darfur","WASH : Uses improved toilet facilities","Proportion",36.15,26.54,45.75
 15,"South Darfur","WASH : Uses non-shared improved toilet facilities","Proportion",31.85,21.69,42.01
 15,"South Darfur","WASH : Open defecation","Proportion",42.75,27.23,58.26
@@ -3638,8 +3610,6 @@
 12,"South Kourdofan","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",6.25,0.01,13.93
 12,"South Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.35,85.16,99.99
 12,"South Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",80.28,69.38,91.18
-12,"South Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.18,84.76,99.99
-12,"South Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",80.31,69.33,91.3
 12,"South Kourdofan","WASH : Uses improved toilet facilities","Proportion",16.48,5.19,27.77
 12,"South Kourdofan","WASH : Uses non-shared improved toilet facilities","Proportion",10.07,2.36,17.77
 12,"South Kourdofan","WASH : Open defecation","Proportion",49.49,35.83,63.14
@@ -3881,8 +3851,6 @@
 18,"West Darfur","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",2.78,0.01,7.22
 18,"West Darfur","WASH : Uses improved drinking water sources","Proportion",92.25,84.54,99.96
 18,"West Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",56.22,42.06,70.39
-18,"West Darfur","WASH : Uses improved drinking water sources","Proportion",92.07,84.14,99.99
-18,"West Darfur","WASH : Improved drinking water source within 30 minutes","Proportion",56.37,41.85,70.9
 18,"West Darfur","WASH : Uses improved toilet facilities","Proportion",32.32,21.46,43.18
 18,"West Darfur","WASH : Uses non-shared improved toilet facilities","Proportion",23.33,14.13,32.53
 18,"West Darfur","WASH : Open defecation","Proportion",44.69,29.42,59.96
@@ -4124,8 +4092,6 @@
 13,"West Kourdofan","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",0.86,0.01,5.14
 13,"West Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.59,86.88,99.99
 13,"West Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",69.2,54.01,84.4
-13,"West Kourdofan","WASH : Uses improved drinking water sources","Proportion",93.67,86.74,99.99
-13,"West Kourdofan","WASH : Improved drinking water source within 30 minutes","Proportion",68.94,53.73,84.14
 13,"West Kourdofan","WASH : Uses improved toilet facilities","Proportion",19.7,8.56,30.84
 13,"West Kourdofan","WASH : Uses non-shared improved toilet facilities","Proportion",16.64,6.37,26.91
 13,"West Kourdofan","WASH : Open defecation","Proportion",24.13,13.25,35.01
@@ -4367,8 +4333,6 @@
 10,"White Nile","WASH : Water transferred by car from improved sources within 30 minutes","Proportion",10.52,2.24,18.8
 10,"White Nile","WASH : Uses improved drinking water sources","Proportion",81.68,69.07,94.29
 10,"White Nile","WASH : Improved drinking water source within 30 minutes","Proportion",71.04,56.69,85.4
-10,"White Nile","WASH : Uses improved drinking water sources","Proportion",81.89,69.41,94.36
-10,"White Nile","WASH : Improved drinking water source within 30 minutes","Proportion",70.37,56.09,84.66
 10,"White Nile","WASH : Uses improved toilet facilities","Proportion",45.61,33.4,57.82
 10,"White Nile","WASH : Uses non-shared improved toilet facilities","Proportion",28.03,18.27,37.78
 10,"White Nile","WASH : Open defecation","Proportion",39.66,25.58,53.74

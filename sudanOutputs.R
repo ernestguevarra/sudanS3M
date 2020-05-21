@@ -78,14 +78,16 @@ for(i in stateNames) {
   ## Read worksheet for current state
   resultsCurrentState <- read.xlsx(xlsxFile = "_byStates.xlsx", sheet = i)
   
+  resultsCurrentState <- resultsCurrentState[c(1:237, 240:243), ]
+  
   ## Add column for state name
   resultsCurrentState <- data.frame(stateID = stateSteer$stateID[stateSteer$state == i],
                                     state = i,
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
-                                  "type", "estimate", "lcl", "ucl")
+  names(resultsCurrentState) <- c("stateID", "state", "Indicator", 
+                                  "Type", "Estimate", "X95..LCL", "X95..UCL")
 
   ## Concatenate results
   allStates <- rbind(allStates, resultsCurrentState)
@@ -112,8 +114,8 @@ for(i in stateNames) {
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
-                                  "type", "estimate", "lcl", "ucl")
+  names(resultsCurrentState) <- c("stateID", "state", "Indicator", 
+                                  "Type", "Estimate", "X95..LCL", "X95..UCL")
   
   ## Concatenate results
   allStatesEdu <- rbind(allStatesEdu, resultsCurrentState)
@@ -140,8 +142,8 @@ for(i in stateNames) {
                                     resultsCurrentState, stringsAsFactors = FALSE)
   
   ## Rename columns in current state results
-  names(resultsCurrentState) <- c("stateID", "state", "indicator", 
-                                  "type", "estimate", "lcl", "ucl")
+  names(resultsCurrentState) <- c("stateID", "state", "Indicator", 
+                                  "Type", "Estimate", "X95..LCL", "X95..UCL")
   
   ## Concatenate results
   allStatesWASH <- rbind(allStatesWASH, resultsCurrentState)

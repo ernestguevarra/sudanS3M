@@ -1,4 +1,4 @@
-"stateID","state","indicator","type","estimate","lcl","ucl"
+"stateID","state","Indicator","Type","Estimate","X95..LCL","X95..UCL"
 7,"Al-Gadarif","Education : Access to preschool education - ALL children","Proportion",52.84,38.54,67.15
 7,"Al-Gadarif","Education : Access to basic education - ALL children","Proportion",80.82,70.15,91.49
 7,"Al-Gadarif","Education : Access to education (preschool or basic) - ALL children","Proportion",72.03,61.4,82.66
