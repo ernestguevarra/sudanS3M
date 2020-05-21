@@ -1,0 +1,433 @@
+"ID","State","Indicator","Type","Estimate","LCL","UCL"
+1,"Northern","WASH: Uses improved drinking water sources","Proportion",96.14,93.74,98.53
+1,"Northern","WASH: Public pipe network in house","Proportion",83.51,71.4,95.62
+1,"Northern","WASH: Public pipe network in yard","Proportion",0.82,0.01,3.32
+1,"Northern","WASH: Public water pipe","Proportion",1.81,0.01,6.02
+1,"Northern","WASH: Protected ground water","Proportion",5.89,0.01,13.17
+1,"Northern","WASH: Protected well","Proportion",4.09,0.01,11.19
+1,"Northern","WASH: Filtered surface water","Proportion",1.58,0.01,4.28
+1,"Northern","WASH: Trucked from improved sources","Proportion",0,0,0.03
+1,"Northern","WASH: Bottled water","Proportion",0,0,0
+1,"Northern","WASH: Unfiltered surface water","Proportion",0.72,0.01,2.83
+1,"Northern","WASH: Unprotected well","Proportion",0.19,0.01,0.78
+1,"Northern","WASH: Trucked from unprotected sources","Proportion",0,0,0
+1,"Northern","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",96.45,94.03,98.87
+1,"Northern","WASH: Public pipe network in house within 30 minutes","Proportion",84.02,72.93,95.1
+1,"Northern","WASH: Public pipe network in yard within 30 minutes","Proportion",0.82,0.01,3.11
+1,"Northern","WASH: Public water pipe within 30 minutes","Proportion",1.76,0.01,5.95
+1,"Northern","WASH: Protected ground water within 30 minutes","Proportion",5.78,0.01,12.89
+1,"Northern","WASH: Protected well within 30 minutes","Proportion",4.08,0.01,11.16
+1,"Northern","WASH: Filtered surface water within 30 minutes","Proportion",1.48,0.01,4.16
+1,"Northern","WASH: Trucked from improved sources within 30 minutes","Proportion",0,0,0.02
+1,"Northern","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+1,"Northern","WASH: Unfiltered surface water within 30 minutes","Proportion",0.04,0.01,0.26
+1,"Northern","WASH: Unprotected well within 30 minutes","Proportion",0.19,0.01,0.83
+1,"Northern","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+2,"River Nile","WASH: Uses improved drinking water sources","Proportion",93.12,88.76,97.49
+2,"River Nile","WASH: Public pipe network in house","Proportion",76.87,64.59,89.14
+2,"River Nile","WASH: Public pipe network in yard","Proportion",2.66,0.01,6.36
+2,"River Nile","WASH: Public water pipe","Proportion",1.26,0.01,3.08
+2,"River Nile","WASH: Protected ground water","Proportion",6.14,0.01,13.77
+2,"River Nile","WASH: Protected well","Proportion",5.57,0.01,11.43
+2,"River Nile","WASH: Filtered surface water","Proportion",3.8,0.01,8.56
+2,"River Nile","WASH: Trucked from improved sources","Proportion",0.63,0.01,2.42
+2,"River Nile","WASH: Bottled water","Proportion",0,0,0
+2,"River Nile","WASH: Unfiltered surface water","Proportion",1.27,0.01,4.7
+2,"River Nile","WASH: Unprotected well","Proportion",0,0,0.04
+2,"River Nile","WASH: Trucked from unprotected sources","Proportion",0,0,0
+2,"River Nile","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",89.86,83.58,96.14
+2,"River Nile","WASH: Public pipe network in house within 30 minutes","Proportion",76.41,64.45,88.37
+2,"River Nile","WASH: Public pipe network in yard within 30 minutes","Proportion",2.09,0.01,4.5
+2,"River Nile","WASH: Public water pipe within 30 minutes","Proportion",1.1,0.01,2.83
+2,"River Nile","WASH: Protected ground water within 30 minutes","Proportion",5.52,0.01,12.53
+2,"River Nile","WASH: Protected well within 30 minutes","Proportion",4.41,0.01,9.56
+2,"River Nile","WASH: Filtered surface water within 30 minutes","Proportion",2.66,0.01,6.33
+2,"River Nile","WASH: Trucked from improved sources within 30 minutes","Proportion",0.34,0.01,1.49
+2,"River Nile","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+2,"River Nile","WASH: Unfiltered surface water within 30 minutes","Proportion",0.78,0.01,2.7
+2,"River Nile","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+2,"River Nile","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+3,"Khartoum","WASH: Uses improved drinking water sources","Proportion",94.98,92.37,97.59
+3,"Khartoum","WASH: Public pipe network in house","Proportion",77.39,63.11,91.68
+3,"Khartoum","WASH: Public pipe network in yard","Proportion",2.37,0.01,8
+3,"Khartoum","WASH: Public water pipe","Proportion",1.22,0.01,3.56
+3,"Khartoum","WASH: Protected ground water","Proportion",12.33,1.99,22.66
+3,"Khartoum","WASH: Protected well","Proportion",0.62,0.01,3.39
+3,"Khartoum","WASH: Filtered surface water","Proportion",0,0,0.8
+3,"Khartoum","WASH: Trucked from improved sources","Proportion",1.04,0.01,4.05
+3,"Khartoum","WASH: Bottled water","Proportion",0,0,0.11
+3,"Khartoum","WASH: Unfiltered surface water","Proportion",0,0,0
+3,"Khartoum","WASH: Unprotected well","Proportion",0,0,0
+3,"Khartoum","WASH: Trucked from unprotected sources","Proportion",0,0,0
+3,"Khartoum","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",91.53,86.23,96.84
+3,"Khartoum","WASH: Public pipe network in house within 30 minutes","Proportion",77.52,63.38,91.66
+3,"Khartoum","WASH: Public pipe network in yard within 30 minutes","Proportion",2.16,0.01,7.14
+3,"Khartoum","WASH: Public water pipe within 30 minutes","Proportion",0.91,0.01,2.55
+3,"Khartoum","WASH: Protected ground water within 30 minutes","Proportion",9.55,0.78,18.32
+3,"Khartoum","WASH: Protected well within 30 minutes","Proportion",0.42,0.01,2.43
+3,"Khartoum","WASH: Filtered surface water within 30 minutes","Proportion",0,0,0.78
+3,"Khartoum","WASH: Trucked from improved sources within 30 minutes","Proportion",0.97,0.01,3.61
+3,"Khartoum","WASH: Bottled water within 30 minutes","Proportion",0,0,0.1
+3,"Khartoum","WASH: Unfiltered surface water within 30 minutes","Proportion",0,0,0
+3,"Khartoum","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+3,"Khartoum","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Uses improved drinking water sources","Proportion",87.38,78.03,96.72
+4,"Al-Gazeera","WASH: Public pipe network in house","Proportion",77.37,61.19,93.54
+4,"Al-Gazeera","WASH: Public pipe network in yard","Proportion",0.65,0.01,3.58
+4,"Al-Gazeera","WASH: Public water pipe","Proportion",0.7,0.01,1.85
+4,"Al-Gazeera","WASH: Protected ground water","Proportion",5.64,0.01,14.95
+4,"Al-Gazeera","WASH: Protected well","Proportion",2.19,0.01,6.19
+4,"Al-Gazeera","WASH: Filtered surface water","Proportion",2.3,0.01,8.03
+4,"Al-Gazeera","WASH: Trucked from improved sources","Proportion",0.83,0.01,3.62
+4,"Al-Gazeera","WASH: Bottled water","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Unfiltered surface water","Proportion",4.55,0.01,12.25
+4,"Al-Gazeera","WASH: Unprotected well","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Trucked from unprotected sources","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",85.24,74.24,96.24
+4,"Al-Gazeera","WASH: Public pipe network in house within 30 minutes","Proportion",77.24,61.02,93.46
+4,"Al-Gazeera","WASH: Public pipe network in yard within 30 minutes","Proportion",0.6,0.01,3.2
+4,"Al-Gazeera","WASH: Public water pipe within 30 minutes","Proportion",0.7,0.01,1.84
+4,"Al-Gazeera","WASH: Protected ground water within 30 minutes","Proportion",5.44,0.01,14.62
+4,"Al-Gazeera","WASH: Protected well within 30 minutes","Proportion",1.19,0.01,3.84
+4,"Al-Gazeera","WASH: Filtered surface water within 30 minutes","Proportion",2.21,0.01,7.8
+4,"Al-Gazeera","WASH: Trucked from improved sources within 30 minutes","Proportion",0.07,0.01,0.35
+4,"Al-Gazeera","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Unfiltered surface water within 30 minutes","Proportion",4.6,0.01,12.5
+4,"Al-Gazeera","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+4,"Al-Gazeera","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+8,"Sinar","WASH: Uses improved drinking water sources","Proportion",88.42,80.09,96.75
+8,"Sinar","WASH: Public pipe network in house","Proportion",53.62,38.81,68.43
+8,"Sinar","WASH: Public pipe network in yard","Proportion",0,0,0.89
+8,"Sinar","WASH: Public water pipe","Proportion",1.31,0.01,3.08
+8,"Sinar","WASH: Protected ground water","Proportion",23.86,9.28,38.44
+8,"Sinar","WASH: Protected well","Proportion",9.27,0.01,19.85
+8,"Sinar","WASH: Filtered surface water","Proportion",2.46,0.01,7.64
+8,"Sinar","WASH: Trucked from improved sources","Proportion",0.35,0.01,1.85
+8,"Sinar","WASH: Bottled water","Proportion",0,0,0
+8,"Sinar","WASH: Unfiltered surface water","Proportion",6.79,0.01,15.03
+8,"Sinar","WASH: Unprotected well","Proportion",0,0,0
+8,"Sinar","WASH: Trucked from unprotected sources","Proportion",0.09,0.01,0.84
+8,"Sinar","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",86.05,77.07,95.02
+8,"Sinar","WASH: Public pipe network in house within 30 minutes","Proportion",53.4,38.63,68.18
+8,"Sinar","WASH: Public pipe network in yard within 30 minutes","Proportion",0,0,0.87
+8,"Sinar","WASH: Public water pipe within 30 minutes","Proportion",1.3,0.01,3.07
+8,"Sinar","WASH: Protected ground water within 30 minutes","Proportion",22.36,9.25,35.48
+8,"Sinar","WASH: Protected well within 30 minutes","Proportion",8.6,0.01,18.73
+8,"Sinar","WASH: Filtered surface water within 30 minutes","Proportion",1.55,0.01,5.81
+8,"Sinar","WASH: Trucked from improved sources within 30 minutes","Proportion",0.38,0.01,1.79
+8,"Sinar","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+8,"Sinar","WASH: Unfiltered surface water within 30 minutes","Proportion",5.04,0.01,12.21
+8,"Sinar","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+8,"Sinar","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0.02,0.01,0.71
+9,"Blue Nile","WASH: Uses improved drinking water sources","Proportion",60.82,49.02,72.61
+9,"Blue Nile","WASH: Public pipe network in house","Proportion",18.38,6.69,30.08
+9,"Blue Nile","WASH: Public pipe network in yard","Proportion",0.77,0.01,3.94
+9,"Blue Nile","WASH: Public water pipe","Proportion",2.79,0.01,6.17
+9,"Blue Nile","WASH: Protected ground water","Proportion",25.77,8.33,43.21
+9,"Blue Nile","WASH: Protected well","Proportion",7.82,0.01,16.48
+9,"Blue Nile","WASH: Filtered surface water","Proportion",28.09,12.3,43.89
+9,"Blue Nile","WASH: Trucked from improved sources","Proportion",5.27,0.01,11.67
+9,"Blue Nile","WASH: Bottled water","Proportion",0,0,0
+9,"Blue Nile","WASH: Unfiltered surface water","Proportion",7.61,0.01,18.54
+9,"Blue Nile","WASH: Unprotected well","Proportion",0.02,0.01,0.28
+9,"Blue Nile","WASH: Trucked from unprotected sources","Proportion",1.48,0.01,5.64
+9,"Blue Nile","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",53.89,40.31,67.48
+9,"Blue Nile","WASH: Public pipe network in house within 30 minutes","Proportion",18.5,6.81,30.18
+9,"Blue Nile","WASH: Public pipe network in yard within 30 minutes","Proportion",0.63,0.01,3.64
+9,"Blue Nile","WASH: Public water pipe within 30 minutes","Proportion",2.67,0.01,6.2
+9,"Blue Nile","WASH: Protected ground water within 30 minutes","Proportion",22.76,6.33,39.18
+9,"Blue Nile","WASH: Protected well within 30 minutes","Proportion",6.65,0.01,14.35
+9,"Blue Nile","WASH: Filtered surface water within 30 minutes","Proportion",22.73,9.04,36.42
+9,"Blue Nile","WASH: Trucked from improved sources within 30 minutes","Proportion",2.69,0.01,6.53
+9,"Blue Nile","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+9,"Blue Nile","WASH: Unfiltered surface water within 30 minutes","Proportion",4.97,0.01,12.7
+9,"Blue Nile","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+9,"Blue Nile","WASH: Trucked from unprotected sources within 30 minutes","Proportion",1.44,0.01,5.57
+10,"White Nile","WASH: Uses improved drinking water sources","Proportion",65.75,55.52,75.99
+10,"White Nile","WASH: Public pipe network in house","Proportion",28.02,11.76,44.29
+10,"White Nile","WASH: Public pipe network in yard","Proportion",17.07,5.23,28.9
+10,"White Nile","WASH: Public water pipe","Proportion",0.53,0.01,1.96
+10,"White Nile","WASH: Protected ground water","Proportion",7.32,0.01,15.5
+10,"White Nile","WASH: Protected well","Proportion",10.36,0.44,20.28
+10,"White Nile","WASH: Filtered surface water","Proportion",20.9,8.33,33.48
+10,"White Nile","WASH: Trucked from improved sources","Proportion",2.44,0.01,8.03
+10,"White Nile","WASH: Bottled water","Proportion",0,0,0
+10,"White Nile","WASH: Unfiltered surface water","Proportion",9.62,0.01,19.55
+10,"White Nile","WASH: Unprotected well","Proportion",0.11,0.01,1.78
+10,"White Nile","WASH: Trucked from unprotected sources","Proportion",0.04,0.01,0.27
+10,"White Nile","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",56.24,42.53,69.95
+10,"White Nile","WASH: Public pipe network in house within 30 minutes","Proportion",27.25,12.05,42.46
+10,"White Nile","WASH: Public pipe network in yard within 30 minutes","Proportion",13.82,3.36,24.29
+10,"White Nile","WASH: Public water pipe within 30 minutes","Proportion",0.54,0.01,2.1
+10,"White Nile","WASH: Protected ground water within 30 minutes","Proportion",5.59,0.01,13.06
+10,"White Nile","WASH: Protected well within 30 minutes","Proportion",7.54,0.01,15.84
+10,"White Nile","WASH: Filtered surface water within 30 minutes","Proportion",17.84,7.01,28.67
+10,"White Nile","WASH: Trucked from improved sources within 30 minutes","Proportion",1.48,0.01,4.2
+10,"White Nile","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+10,"White Nile","WASH: Unfiltered surface water within 30 minutes","Proportion",8.51,0.01,17.31
+10,"White Nile","WASH: Unprotected well within 30 minutes","Proportion",0,0,0.53
+10,"White Nile","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0.04,0.01,0.27
+5,"Red Sea","WASH: Uses improved drinking water sources","Proportion",82.64,74.27,91.01
+5,"Red Sea","WASH: Public pipe network in house","Proportion",5.42,0.01,13.67
+5,"Red Sea","WASH: Public pipe network in yard","Proportion",17.71,0.67,34.75
+5,"Red Sea","WASH: Public water pipe","Proportion",2.56,0.01,8.51
+5,"Red Sea","WASH: Protected ground water","Proportion",7.51,0.01,17.66
+5,"Red Sea","WASH: Protected well","Proportion",29.67,11.45,47.88
+5,"Red Sea","WASH: Filtered surface water","Proportion",2.27,0.01,6.51
+5,"Red Sea","WASH: Trucked from improved sources","Proportion",19.24,2.29,36.2
+5,"Red Sea","WASH: Bottled water","Proportion",0.53,0.01,2.19
+5,"Red Sea","WASH: Unfiltered surface water","Proportion",1.5,0.01,4.93
+5,"Red Sea","WASH: Unprotected well","Proportion",0.02,0.01,0.24
+5,"Red Sea","WASH: Trucked from unprotected sources","Proportion",0,0,0.14
+5,"Red Sea","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",55.28,40.99,69.57
+5,"Red Sea","WASH: Public pipe network in house within 30 minutes","Proportion",5.56,0.01,13.68
+5,"Red Sea","WASH: Public pipe network in yard within 30 minutes","Proportion",12.44,0.36,24.52
+5,"Red Sea","WASH: Public water pipe within 30 minutes","Proportion",1.97,0.01,6.41
+5,"Red Sea","WASH: Protected ground water within 30 minutes","Proportion",4.83,0.01,12.78
+5,"Red Sea","WASH: Protected well within 30 minutes","Proportion",17.07,3.57,30.56
+5,"Red Sea","WASH: Filtered surface water within 30 minutes","Proportion",1.45,0.01,4.33
+5,"Red Sea","WASH: Trucked from improved sources within 30 minutes","Proportion",12.89,0.01,28.05
+5,"Red Sea","WASH: Bottled water within 30 minutes","Proportion",0.53,0.01,2.01
+5,"Red Sea","WASH: Unfiltered surface water within 30 minutes","Proportion",1.13,0.01,4.61
+5,"Red Sea","WASH: Unprotected well within 30 minutes","Proportion",0.02,0.01,0.21
+5,"Red Sea","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0.12
+6,"Kassala","WASH: Uses improved drinking water sources","Proportion",82.95,75.04,90.86
+6,"Kassala","WASH: Public pipe network in house","Proportion",33.51,21.02,46.01
+6,"Kassala","WASH: Public pipe network in yard","Proportion",13.08,2.07,24.08
+6,"Kassala","WASH: Public water pipe","Proportion",0.71,0.01,2.48
+6,"Kassala","WASH: Protected ground water","Proportion",15.89,5.22,26.56
+6,"Kassala","WASH: Protected well","Proportion",15.91,6.84,24.99
+6,"Kassala","WASH: Filtered surface water","Proportion",8.57,0.01,17.21
+6,"Kassala","WASH: Trucked from improved sources","Proportion",3.85,0.05,7.65
+6,"Kassala","WASH: Bottled water","Proportion",0,0,0
+6,"Kassala","WASH: Unfiltered surface water","Proportion",4.64,0.01,11.08
+6,"Kassala","WASH: Unprotected well","Proportion",0.05,0.01,0.36
+6,"Kassala","WASH: Trucked from unprotected sources","Proportion",0.66,0.01,2.33
+6,"Kassala","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",70.84,59.6,82.08
+6,"Kassala","WASH: Public pipe network in house within 30 minutes","Proportion",33.34,20.61,46.07
+6,"Kassala","WASH: Public pipe network in yard within 30 minutes","Proportion",11.76,2.01,21.51
+6,"Kassala","WASH: Public water pipe within 30 minutes","Proportion",0.73,0.01,2.69
+6,"Kassala","WASH: Protected ground water within 30 minutes","Proportion",12.86,4.82,20.91
+6,"Kassala","WASH: Protected well within 30 minutes","Proportion",9.33,1.92,16.75
+6,"Kassala","WASH: Filtered surface water within 30 minutes","Proportion",7,0.01,14.57
+6,"Kassala","WASH: Trucked from improved sources within 30 minutes","Proportion",2.81,0.01,6.53
+6,"Kassala","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+6,"Kassala","WASH: Unfiltered surface water within 30 minutes","Proportion",2.37,0.01,6.83
+6,"Kassala","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+6,"Kassala","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0.19,0.01,0.73
+7,"Al-Gadarif","WASH: Uses improved drinking water sources","Proportion",54.95,41.65,68.24
+7,"Al-Gadarif","WASH: Public pipe network in house","Proportion",8.23,0.01,18.5
+7,"Al-Gadarif","WASH: Public pipe network in yard","Proportion",6.39,0.01,15.02
+7,"Al-Gadarif","WASH: Public water pipe","Proportion",0.41,0.01,2.51
+7,"Al-Gadarif","WASH: Protected ground water","Proportion",19.3,5.73,32.88
+7,"Al-Gadarif","WASH: Protected well","Proportion",19.35,8.31,30.38
+7,"Al-Gadarif","WASH: Filtered surface water","Proportion",23.69,10.61,36.77
+7,"Al-Gadarif","WASH: Trucked from improved sources","Proportion",1.27,0.01,3.7
+7,"Al-Gadarif","WASH: Bottled water","Proportion",0,0,0
+7,"Al-Gadarif","WASH: Unfiltered surface water","Proportion",15.15,1.97,28.32
+7,"Al-Gadarif","WASH: Unprotected well","Proportion",0.81,0.01,3.5
+7,"Al-Gadarif","WASH: Trucked from unprotected sources","Proportion",2.19,0.01,6.06
+7,"Al-Gadarif","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",49.26,35.42,63.11
+7,"Al-Gadarif","WASH: Public pipe network in house within 30 minutes","Proportion",8.07,0.01,17.47
+7,"Al-Gadarif","WASH: Public pipe network in yard within 30 minutes","Proportion",5.75,0.01,13.15
+7,"Al-Gadarif","WASH: Public water pipe within 30 minutes","Proportion",0.42,0.01,2.4
+7,"Al-Gadarif","WASH: Protected ground water within 30 minutes","Proportion",17.83,4.99,30.68
+7,"Al-Gadarif","WASH: Protected well within 30 minutes","Proportion",16.26,5.11,27.42
+7,"Al-Gadarif","WASH: Filtered surface water within 30 minutes","Proportion",21.7,9.83,33.57
+7,"Al-Gadarif","WASH: Trucked from improved sources within 30 minutes","Proportion",0.92,0.01,2.75
+7,"Al-Gadarif","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+7,"Al-Gadarif","WASH: Unfiltered surface water within 30 minutes","Proportion",13.92,1.82,26.02
+7,"Al-Gadarif","WASH: Unprotected well within 30 minutes","Proportion",0.79,0.01,3.51
+7,"Al-Gadarif","WASH: Trucked from unprotected sources within 30 minutes","Proportion",1.12,0.01,3.82
+11,"North Kourdofan","WASH: Uses improved drinking water sources","Proportion",80.13,74.14,86.13
+11,"North Kourdofan","WASH: Public pipe network in house","Proportion",8.37,0.9,15.85
+11,"North Kourdofan","WASH: Public pipe network in yard","Proportion",4.06,0.01,9.42
+11,"North Kourdofan","WASH: Public water pipe","Proportion",1.67,0.01,3.7
+11,"North Kourdofan","WASH: Protected ground water","Proportion",44.76,30.2,59.31
+11,"North Kourdofan","WASH: Protected well","Proportion",9.64,1.51,17.78
+11,"North Kourdofan","WASH: Filtered surface water","Proportion",12.72,3.42,22.02
+11,"North Kourdofan","WASH: Trucked from improved sources","Proportion",11.63,1.91,21.36
+11,"North Kourdofan","WASH: Bottled water","Proportion",0,0,0
+11,"North Kourdofan","WASH: Unfiltered surface water","Proportion",1.39,0.01,4.08
+11,"North Kourdofan","WASH: Unprotected well","Proportion",0.02,0.01,1.62
+11,"North Kourdofan","WASH: Trucked from unprotected sources","Proportion",0,0,0
+11,"North Kourdofan","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",62.58,50.35,74.81
+11,"North Kourdofan","WASH: Public pipe network in house within 30 minutes","Proportion",8.4,0.56,16.23
+11,"North Kourdofan","WASH: Public pipe network in yard within 30 minutes","Proportion",3.24,0.01,7.85
+11,"North Kourdofan","WASH: Public water pipe within 30 minutes","Proportion",1.69,0.01,3.94
+11,"North Kourdofan","WASH: Protected ground water within 30 minutes","Proportion",38.29,24.75,51.83
+11,"North Kourdofan","WASH: Protected well within 30 minutes","Proportion",7.66,1.3,14.03
+11,"North Kourdofan","WASH: Filtered surface water within 30 minutes","Proportion",10.06,2.18,17.94
+11,"North Kourdofan","WASH: Trucked from improved sources within 30 minutes","Proportion",3.3,0.01,6.92
+11,"North Kourdofan","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+11,"North Kourdofan","WASH: Unfiltered surface water within 30 minutes","Proportion",1.21,0.01,3.38
+11,"North Kourdofan","WASH: Unprotected well within 30 minutes","Proportion",0.02,0.01,1.63
+11,"North Kourdofan","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+12,"South Kourdofan","WASH: Uses improved drinking water sources","Proportion",82.89,75.4,90.38
+12,"South Kourdofan","WASH: Public pipe network in house","Proportion",2.08,0.01,8.24
+12,"South Kourdofan","WASH: Public pipe network in yard","Proportion",5.93,0.01,13.32
+12,"South Kourdofan","WASH: Public water pipe","Proportion",0.71,0.01,3.1
+12,"South Kourdofan","WASH: Protected ground water","Proportion",66.82,47.84,85.79
+12,"South Kourdofan","WASH: Protected well","Proportion",6.22,0.01,13.41
+12,"South Kourdofan","WASH: Filtered surface water","Proportion",11.71,2.35,21.08
+12,"South Kourdofan","WASH: Trucked from improved sources","Proportion",1.13,0.01,5.29
+12,"South Kourdofan","WASH: Bottled water","Proportion",0,0,0.08
+12,"South Kourdofan","WASH: Unfiltered surface water","Proportion",3.33,0.01,9.66
+12,"South Kourdofan","WASH: Unprotected well","Proportion",0,0,0.27
+12,"South Kourdofan","WASH: Trucked from unprotected sources","Proportion",0,0,0.04
+12,"South Kourdofan","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",74.39,63.34,85.45
+12,"South Kourdofan","WASH: Public pipe network in house within 30 minutes","Proportion",2.24,0.01,7.95
+12,"South Kourdofan","WASH: Public pipe network in yard within 30 minutes","Proportion",5.58,0.01,12.52
+12,"South Kourdofan","WASH: Public water pipe within 30 minutes","Proportion",0.3,0.01,1.25
+12,"South Kourdofan","WASH: Protected ground water within 30 minutes","Proportion",59.87,42.44,77.31
+12,"South Kourdofan","WASH: Protected well within 30 minutes","Proportion",5.23,0.01,11.73
+12,"South Kourdofan","WASH: Filtered surface water within 30 minutes","Proportion",8.26,0.95,15.56
+12,"South Kourdofan","WASH: Trucked from improved sources within 30 minutes","Proportion",1.16,0.01,3.98
+12,"South Kourdofan","WASH: Bottled water within 30 minutes","Proportion",0,0,0.04
+12,"South Kourdofan","WASH: Unfiltered surface water within 30 minutes","Proportion",2.36,0.01,6.94
+12,"South Kourdofan","WASH: Unprotected well within 30 minutes","Proportion",0,0,0.09
+12,"South Kourdofan","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+13,"West Kourdofan","WASH: Uses improved drinking water sources","Proportion",81.64,76.62,86.66
+13,"West Kourdofan","WASH: Public pipe network in house","Proportion",0.94,0.01,2.6
+13,"West Kourdofan","WASH: Public pipe network in yard","Proportion",3.14,0.01,7.33
+13,"West Kourdofan","WASH: Public water pipe","Proportion",0,0,0
+13,"West Kourdofan","WASH: Protected ground water","Proportion",60.05,44.98,75.12
+13,"West Kourdofan","WASH: Protected well","Proportion",6.74,0.01,15.58
+13,"West Kourdofan","WASH: Filtered surface water","Proportion",15.77,3.1,28.44
+13,"West Kourdofan","WASH: Trucked from improved sources","Proportion",10.76,0.96,20.57
+13,"West Kourdofan","WASH: Bottled water","Proportion",0,0,0
+13,"West Kourdofan","WASH: Unfiltered surface water","Proportion",0.58,0.01,2.69
+13,"West Kourdofan","WASH: Unprotected well","Proportion",0,0,0
+13,"West Kourdofan","WASH: Trucked from unprotected sources","Proportion",0,0,0
+13,"West Kourdofan","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",58.45,43.63,73.27
+13,"West Kourdofan","WASH: Public pipe network in house within 30 minutes","Proportion",0.93,0.01,2.59
+13,"West Kourdofan","WASH: Public pipe network in yard within 30 minutes","Proportion",2.13,0.01,5.72
+13,"West Kourdofan","WASH: Public water pipe within 30 minutes","Proportion",0,0,0
+13,"West Kourdofan","WASH: Protected ground water within 30 minutes","Proportion",49.77,33.09,66.45
+13,"West Kourdofan","WASH: Protected well within 30 minutes","Proportion",3.97,0.01,11.23
+13,"West Kourdofan","WASH: Filtered surface water within 30 minutes","Proportion",10.62,0.18,21.06
+13,"West Kourdofan","WASH: Trucked from improved sources within 30 minutes","Proportion",1.66,0.01,5.16
+13,"West Kourdofan","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+13,"West Kourdofan","WASH: Unfiltered surface water within 30 minutes","Proportion",0.29,0.01,1.71
+13,"West Kourdofan","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+13,"West Kourdofan","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+14,"North Darfur","WASH: Uses improved drinking water sources","Proportion",74.14,66.36,81.91
+14,"North Darfur","WASH: Public pipe network in house","Proportion",2.05,0.01,5.77
+14,"North Darfur","WASH: Public pipe network in yard","Proportion",3.84,0.01,10.19
+14,"North Darfur","WASH: Public water pipe","Proportion",0.11,0.01,0.36
+14,"North Darfur","WASH: Protected ground water","Proportion",43.64,30.63,56.64
+14,"North Darfur","WASH: Protected well","Proportion",21.95,11.4,32.51
+14,"North Darfur","WASH: Filtered surface water","Proportion",10.74,2.76,18.73
+14,"North Darfur","WASH: Trucked from improved sources","Proportion",2.55,0.01,5.74
+14,"North Darfur","WASH: Bottled water","Proportion",0,0,0
+14,"North Darfur","WASH: Unfiltered surface water","Proportion",7.51,0.51,14.51
+14,"North Darfur","WASH: Unprotected well","Proportion",0.17,0.01,0.92
+14,"North Darfur","WASH: Trucked from unprotected sources","Proportion",0,0,0
+14,"North Darfur","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",56.63,42.85,70.41
+14,"North Darfur","WASH: Public pipe network in house within 30 minutes","Proportion",2.14,0.01,5.74
+14,"North Darfur","WASH: Public pipe network in yard within 30 minutes","Proportion",2.35,0.01,6.52
+14,"North Darfur","WASH: Public water pipe within 30 minutes","Proportion",0.11,0.01,0.36
+14,"North Darfur","WASH: Protected ground water within 30 minutes","Proportion",33.88,20.01,47.75
+14,"North Darfur","WASH: Protected well within 30 minutes","Proportion",16.48,7.15,25.81
+14,"North Darfur","WASH: Filtered surface water within 30 minutes","Proportion",8.14,2.23,14.04
+14,"North Darfur","WASH: Trucked from improved sources within 30 minutes","Proportion",1.67,0.01,4.18
+14,"North Darfur","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+14,"North Darfur","WASH: Unfiltered surface water within 30 minutes","Proportion",4.08,0.01,8.89
+14,"North Darfur","WASH: Unprotected well within 30 minutes","Proportion",0.08,0.01,0.44
+14,"North Darfur","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+15,"South Darfur","WASH: Uses improved drinking water sources","Proportion",72.21,62.19,82.22
+15,"South Darfur","WASH: Public pipe network in house","Proportion",2.41,0.01,7.06
+15,"South Darfur","WASH: Public pipe network in yard","Proportion",4.55,0.01,11.36
+15,"South Darfur","WASH: Public water pipe","Proportion",1.13,0.01,3.25
+15,"South Darfur","WASH: Protected ground water","Proportion",38,19.35,56.65
+15,"South Darfur","WASH: Protected well","Proportion",23.23,10.68,35.78
+15,"South Darfur","WASH: Filtered surface water","Proportion",16.25,6.06,26.43
+15,"South Darfur","WASH: Trucked from improved sources","Proportion",2.89,0.01,10.51
+15,"South Darfur","WASH: Bottled water","Proportion",0,0,0
+15,"South Darfur","WASH: Unfiltered surface water","Proportion",8.04,0.01,16.68
+15,"South Darfur","WASH: Unprotected well","Proportion",1.49,0.01,5
+15,"South Darfur","WASH: Trucked from unprotected sources","Proportion",0,0,0
+15,"South Darfur","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",61.53,47,76.07
+15,"South Darfur","WASH: Public pipe network in house within 30 minutes","Proportion",2.34,0.01,6.63
+15,"South Darfur","WASH: Public pipe network in yard within 30 minutes","Proportion",4.31,0.01,11.1
+15,"South Darfur","WASH: Public water pipe within 30 minutes","Proportion",0.88,0.01,3.08
+15,"South Darfur","WASH: Protected ground water within 30 minutes","Proportion",33.63,15.43,51.83
+15,"South Darfur","WASH: Protected well within 30 minutes","Proportion",18.57,7.06,30.09
+15,"South Darfur","WASH: Filtered surface water within 30 minutes","Proportion",11.86,3.11,20.6
+15,"South Darfur","WASH: Trucked from improved sources within 30 minutes","Proportion",1.79,0.01,7.42
+15,"South Darfur","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+15,"South Darfur","WASH: Unfiltered surface water within 30 minutes","Proportion",5.65,0.01,13.1
+15,"South Darfur","WASH: Unprotected well within 30 minutes","Proportion",1.29,0.01,4.55
+15,"South Darfur","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+17,"East Darfur","WASH: Uses improved drinking water sources","Proportion",63.62,57.44,69.8
+17,"East Darfur","WASH: Public pipe network in house","Proportion",4.14,0.01,8.6
+17,"East Darfur","WASH: Public pipe network in yard","Proportion",0.15,0.01,1.39
+17,"East Darfur","WASH: Public water pipe","Proportion",0,0,0
+17,"East Darfur","WASH: Protected ground water","Proportion",37.06,23.65,50.48
+17,"East Darfur","WASH: Protected well","Proportion",22.27,15.39,29.15
+17,"East Darfur","WASH: Filtered surface water","Proportion",30.03,16.46,43.6
+17,"East Darfur","WASH: Trucked from improved sources","Proportion",0,0,0.17
+17,"East Darfur","WASH: Bottled water","Proportion",0,0,0
+17,"East Darfur","WASH: Unfiltered surface water","Proportion",3.8,0.01,9.36
+17,"East Darfur","WASH: Unprotected well","Proportion",0,0,0
+17,"East Darfur","WASH: Trucked from unprotected sources","Proportion",0,0,0
+17,"East Darfur","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",51.09,38.5,63.68
+17,"East Darfur","WASH: Public pipe network in house within 30 minutes","Proportion",4.16,0.01,8.71
+17,"East Darfur","WASH: Public pipe network in yard within 30 minutes","Proportion",0.16,0.01,1.39
+17,"East Darfur","WASH: Public water pipe within 30 minutes","Proportion",0,0,0
+17,"East Darfur","WASH: Protected ground water within 30 minutes","Proportion",30.81,17.41,44.22
+17,"East Darfur","WASH: Protected well within 30 minutes","Proportion",15.96,9.47,22.45
+17,"East Darfur","WASH: Filtered surface water within 30 minutes","Proportion",21.92,10.28,33.55
+17,"East Darfur","WASH: Trucked from improved sources within 30 minutes","Proportion",0,0,0.17
+17,"East Darfur","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+17,"East Darfur","WASH: Unfiltered surface water within 30 minutes","Proportion",2.1,0.01,5.9
+17,"East Darfur","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+17,"East Darfur","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+18,"West Darfur","WASH: Uses improved drinking water sources","Proportion",87.54,82.91,92.18
+18,"West Darfur","WASH: Public pipe network in house","Proportion",10.78,4.81,16.76
+18,"West Darfur","WASH: Public pipe network in yard","Proportion",7.7,1,14.39
+18,"West Darfur","WASH: Public water pipe","Proportion",0.5,0.01,1.44
+18,"West Darfur","WASH: Protected ground water","Proportion",35.72,22.28,49.15
+18,"West Darfur","WASH: Protected well","Proportion",32.79,19.96,45.62
+18,"West Darfur","WASH: Filtered surface water","Proportion",7.2,0.01,14.81
+18,"West Darfur","WASH: Trucked from improved sources","Proportion",0.05,0.01,0.22
+18,"West Darfur","WASH: Bottled water","Proportion",0,0,0
+18,"West Darfur","WASH: Unfiltered surface water","Proportion",3.09,0.01,7.48
+18,"West Darfur","WASH: Unprotected well","Proportion",0.34,0.01,1.57
+18,"West Darfur","WASH: Trucked from unprotected sources","Proportion",0,0,0
+18,"West Darfur","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",55.73,42.91,68.56
+18,"West Darfur","WASH: Public pipe network in house within 30 minutes","Proportion",10.59,4.21,16.97
+18,"West Darfur","WASH: Public pipe network in yard within 30 minutes","Proportion",6.54,0.6,12.49
+18,"West Darfur","WASH: Public water pipe within 30 minutes","Proportion",0.51,0.01,1.4
+18,"West Darfur","WASH: Protected ground water within 30 minutes","Proportion",21.76,9.65,33.86
+18,"West Darfur","WASH: Protected well within 30 minutes","Proportion",16.28,6.62,25.94
+18,"West Darfur","WASH: Filtered surface water within 30 minutes","Proportion",3.9,0.01,8.31
+18,"West Darfur","WASH: Trucked from improved sources within 30 minutes","Proportion",0.05,0.01,0.23
+18,"West Darfur","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+18,"West Darfur","WASH: Unfiltered surface water within 30 minutes","Proportion",1.48,0.01,4.72
+18,"West Darfur","WASH: Unprotected well within 30 minutes","Proportion",0.08,0.01,0.5
+18,"West Darfur","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0
+16,"Central Darfur","WASH: Uses improved drinking water sources","Proportion",85.33,83.9,86.75
+16,"Central Darfur","WASH: Public pipe network in house","Proportion",1,0.01,2.84
+16,"Central Darfur","WASH: Public pipe network in yard","Proportion",1.34,0.01,5.68
+16,"Central Darfur","WASH: Public water pipe","Proportion",2.67,0.01,5.96
+16,"Central Darfur","WASH: Protected ground water","Proportion",25.26,8.67,41.85
+16,"Central Darfur","WASH: Protected well","Proportion",54.99,39.67,70.31
+16,"Central Darfur","WASH: Filtered surface water","Proportion",12.59,1.72,23.47
+16,"Central Darfur","WASH: Trucked from improved sources","Proportion",0.06,0.01,0.37
+16,"Central Darfur","WASH: Bottled water","Proportion",0,0,0
+16,"Central Darfur","WASH: Unfiltered surface water","Proportion",0.07,0.01,0.34
+16,"Central Darfur","WASH: Unprotected well","Proportion",0.01,0,0.07
+16,"Central Darfur","WASH: Trucked from unprotected sources","Proportion",0,0,0
+16,"Central Darfur","WASH: Uses basic drinking water sources (within 30 minutes)","Proportion",55.84,43.97,67.71
+16,"Central Darfur","WASH: Public pipe network in house within 30 minutes","Proportion",0.96,0.01,2.95
+16,"Central Darfur","WASH: Public pipe network in yard within 30 minutes","Proportion",1.19,0.01,4.67
+16,"Central Darfur","WASH: Public water pipe within 30 minutes","Proportion",1.94,0.01,4.35
+16,"Central Darfur","WASH: Protected ground water within 30 minutes","Proportion",19.75,6.63,32.86
+16,"Central Darfur","WASH: Protected well within 30 minutes","Proportion",31.95,18.36,45.54
+16,"Central Darfur","WASH: Filtered surface water within 30 minutes","Proportion",5.48,0.07,10.9
+16,"Central Darfur","WASH: Trucked from improved sources within 30 minutes","Proportion",0.05,0.01,0.31
+16,"Central Darfur","WASH: Bottled water within 30 minutes","Proportion",0,0,0
+16,"Central Darfur","WASH: Unfiltered surface water within 30 minutes","Proportion",0.04,0.01,0.26
+16,"Central Darfur","WASH: Unprotected well within 30 minutes","Proportion",0,0,0
+16,"Central Darfur","WASH: Trucked from unprotected sources within 30 minutes","Proportion",0,0,0

@@ -178,6 +178,8 @@ indicatorWASH <- data.frame(
                   Type = "Proportion",
                   stringsAsFactors = FALSE)
 
+write.csv(indicatorWASH, "indicatorBaseWASH.csv", row.names = FALSE)
+
 #indicatorBase <- read.csv("indicatorBase.csv", stringsAsFactors = FALSE)
 locNames <- read.csv("locNames.csv", stringsAsFactors = FALSE)
 
@@ -253,7 +255,7 @@ for(i in names(allStates))
     stateResults <- rbind(stateResults, resultRow)
   }
   stateResults <- data.frame(indicatorWASH[ , 1], indicatorWASH[ , 2], stateResults)
-  names(stateResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+  names(stateResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
   row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
@@ -312,7 +314,7 @@ for(i in 1:nrow(indicatorWASH))
 }
 
 nationalResults <- data.frame(indicatorWASH[ , 1], indicatorWASH[ , 2], nationalResults)
-names(nationalResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+names(nationalResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
 row.names(nationalResults) <- 1:nrow(nationalResults)
 
 writeData(wb = resultsWB, sheet = "national", x = nationalResults)

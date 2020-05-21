@@ -92,7 +92,7 @@ for(i in names(allStates))
     stateResults <- rbind(stateResults, resultRow)
   }
   stateResults <- data.frame(indicatorBase[ , 1], indicatorBase[ , 2], stateResults)
-  names(stateResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+  names(stateResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
   row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
@@ -184,7 +184,7 @@ for(i in names(allStatesEdu))
     stateResults <- rbind(stateResults, resultRow)
   }
   stateResults <- data.frame(indicatorBaseEdu[ , 1], indicatorBaseEdu[ , 2], stateResults)
-  names(stateResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+  names(stateResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
   row.names(stateResults) <- 1:nrow(stateResults)
   writeData(wb = resultsWB, sheet = i, x = stateResults)
   allResults <- rbind(allResults, stateResults)
@@ -243,7 +243,7 @@ for(i in 1:nrow(indicatorBase))
 }
 
 nationalResults <- data.frame(indicatorBase[ , 1], indicatorBase[ , 2], nationalResults)
-names(nationalResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+names(nationalResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
 row.names(nationalResults) <- 1:nrow(nationalResults)
 
 writeData(wb = resultsWB, sheet = "national", x = nationalResults)
@@ -301,7 +301,7 @@ for(i in 1:nrow(indicatorBaseEdu))
 }
 
 nationalResults <- data.frame(indicatorBaseEdu[ , 1], indicatorBaseEdu[ , 2], nationalResults)
-names(nationalResults) <- c("Indicator", "Type", "Estimator", "LCL", "UCL")
+names(nationalResults) <- c("Indicator", "Type", "Estimate", "LCL", "UCL")
 row.names(nationalResults) <- 1:nrow(nationalResults)
 
 writeData(wb = resultsWB, sheet = "national", x = nationalResults)
