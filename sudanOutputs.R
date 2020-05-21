@@ -100,7 +100,7 @@ write.csv(x = allStates, file = "stateResults.csv", row.names = FALSE)
 allStatesEdu <- data.frame()
 
 ## Get state names
-stateNames <- getSheetNames(file = "_byStates.Sex.xlsx")
+stateNames <- getSheetNames(file = "_byStates.bySex.xlsx")
 
 for(i in stateNames) {
   ## Read worksheet for current state
