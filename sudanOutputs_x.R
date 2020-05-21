@@ -74,11 +74,13 @@ row.names(stateSteer) <- 1:nrow(stateSteer)
 allStates <- data.frame()
 
 ## Get state names
-stateNames <- getSheetNames(file = "_byStates.xlsx")
+stateNames <- getSheetNames(file = "resultsS3M/_byStates.xlsx")
 
 for(i in stateNames) {
   ## Read worksheet for current state
-  resultsCurrentState <- read.xlsx(xlsxFile = "_byStates.xlsx", sheet = i)
+  resultsCurrentState <- read.xlsx(xlsxFile = "resultsS3M/_byStates.xlsx", sheet = i)
+  
+  resultsCurrentState <- resultsCurrentState[c(1:237, 240:243), ]
   
   ## Add column for state name
   resultsCurrentState <- data.frame(stateID = stateSteer$stateID[stateSteer$state == i],
@@ -94,7 +96,7 @@ for(i in stateNames) {
 }
 
 ## Save allStates as CSV
-write.csv(x = allStates, file = "stateResults.csv", row.names = FALSE)
+write.csv(x = allStates, file = "resultsS3M/stateResults.csv", row.names = FALSE)
 
 ## Create all states and all education indicators dataset ######################
 
@@ -102,11 +104,11 @@ write.csv(x = allStates, file = "stateResults.csv", row.names = FALSE)
 allStatesEdu <- data.frame()
 
 ## Get state names
-stateNames <- getSheetNames(file = "_byStates.bySex.xlsx")
+stateNames <- getSheetNames(file = "resultsS3M/_byStates.bySex.xlsx")
 
 for(i in stateNames) {
   ## Read worksheet for current state
-  resultsCurrentState <- read.xlsx(xlsxFile = "_byStates.bySex.xlsx", sheet = i)
+  resultsCurrentState <- read.xlsx(xlsxFile = "resultsS3M/_byStates.bySex.xlsx", sheet = i)
   
   ## Add column for state name
   resultsCurrentState <- data.frame(stateID = stateSteer$stateID[stateSteer$state == i],
@@ -122,7 +124,7 @@ for(i in stateNames) {
 }
 
 ## Save allStatesEdu as CSV
-write.csv(x = allStatesEdu, file = "stateResultsEdu.csv", row.names = FALSE)
+write.csv(x = allStatesEdu, file = "resultsS3M/stateResultsEdu.csv", row.names = FALSE)
 
 ## Create all states and all WASH indicators dataset ###########################
 
@@ -130,11 +132,11 @@ write.csv(x = allStatesEdu, file = "stateResultsEdu.csv", row.names = FALSE)
 allStatesWASH <- data.frame()
 
 ## Get state names
-stateNames <- getSheetNames(file = "_byStates.WASH.xlsx")
+stateNames <- getSheetNames(file = "resultsS3M/_byStates.WASH.xlsx")
 
 for(i in stateNames) {
   ## Read worksheet for current state
-  resultsCurrentState <- read.xlsx(xlsxFile = "_byStates.WASH.xlsx", sheet = i)
+  resultsCurrentState <- read.xlsx(xlsxFile = "resultsS3M/_byStates.WASH.xlsx", sheet = i)
   
   ## Add column for state name
   resultsCurrentState <- data.frame(stateID = stateSteer$stateID[stateSteer$state == i],
@@ -150,7 +152,7 @@ for(i in stateNames) {
 }
 
 ## Save allStatesEdu as CSV
-write.csv(x = allStatesWASH, file = "stateResultsWASH.csv", row.names = FALSE)
+write.csv(x = allStatesWASH, file = "resultsS3M/stateResultsWASH.csv", row.names = FALSE)
 
 ## Create plots ################################################################
 

@@ -1,0 +1,163 @@
+"stateID","state","Indicator","Type","Estimate","X95..LCL","X95..UCL"
+7,"Al-Gadarif","Education : Access to preschool education - ALL children","Proportion",0.5284,0.3854,0.6715
+7,"Al-Gadarif","Education : Access to basic education - ALL children","Proportion",0.8082,0.7015,0.9149
+7,"Al-Gadarif","Education : Access to education (preschool or basic) - ALL children","Proportion",0.7203,0.614,0.8266
+7,"Al-Gadarif","Education : Access to preschool education - MALES","Proportion",0.5287,0.36,0.6973
+7,"Al-Gadarif","Education : Access to basic education - MALES","Proportion",0.8103,0.6879,0.9327
+7,"Al-Gadarif","Education : Access to education (preschool or basic) - MALES","Proportion",0.7212,0.6108,0.8316
+7,"Al-Gadarif","Education : Access to preschool education - FEMALES","Proportion",0.5264,0.369,0.6837
+7,"Al-Gadarif","Education : Access to basic education - FEMALES","Proportion",0.8125,0.6967,0.9282
+7,"Al-Gadarif","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.7186,0.6064,0.8308
+4,"Al-Gazeera","Education : Access to preschool education - ALL children","Proportion",0.7253,0.5772,0.8735
+4,"Al-Gazeera","Education : Access to basic education - ALL children","Proportion",0.9085,0.8418,0.9752
+4,"Al-Gazeera","Education : Access to education (preschool or basic) - ALL children","Proportion",0.858,0.772,0.9441
+4,"Al-Gazeera","Education : Access to preschool education - MALES","Proportion",0.7113,0.5511,0.8715
+4,"Al-Gazeera","Education : Access to basic education - MALES","Proportion",0.9154,0.8545,0.9764
+4,"Al-Gazeera","Education : Access to education (preschool or basic) - MALES","Proportion",0.864,0.7859,0.9421
+4,"Al-Gazeera","Education : Access to preschool education - FEMALES","Proportion",0.7418,0.5855,0.8982
+4,"Al-Gazeera","Education : Access to basic education - FEMALES","Proportion",0.8997,0.8203,0.9791
+4,"Al-Gazeera","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.8512,0.7607,0.9417
+9,"Blue Nile","Education : Access to preschool education - ALL children","Proportion",0.4566,0.3364,0.5768
+9,"Blue Nile","Education : Access to basic education - ALL children","Proportion",0.7174,0.5977,0.837
+9,"Blue Nile","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6332,0.5372,0.7292
+9,"Blue Nile","Education : Access to preschool education - MALES","Proportion",0.4624,0.3122,0.6127
+9,"Blue Nile","Education : Access to basic education - MALES","Proportion",0.7386,0.6171,0.8601
+9,"Blue Nile","Education : Access to education (preschool or basic) - MALES","Proportion",0.6557,0.5478,0.7636
+9,"Blue Nile","Education : Access to preschool education - FEMALES","Proportion",0.4526,0.3219,0.5833
+9,"Blue Nile","Education : Access to basic education - FEMALES","Proportion",0.6917,0.5549,0.8285
+9,"Blue Nile","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.6141,0.4982,0.7301
+16,"Central Darfur","Education : Access to preschool education - ALL children","Proportion",0.2533,0.0789,0.4278
+16,"Central Darfur","Education : Access to basic education - ALL children","Proportion",0.6208,0.4507,0.791
+16,"Central Darfur","Education : Access to education (preschool or basic) - ALL children","Proportion",0.4914,0.3402,0.6426
+16,"Central Darfur","Education : Access to preschool education - MALES","Proportion",0.2428,0.0465,0.439
+16,"Central Darfur","Education : Access to basic education - MALES","Proportion",0.6426,0.4649,0.8203
+16,"Central Darfur","Education : Access to education (preschool or basic) - MALES","Proportion",0.4965,0.3349,0.6581
+16,"Central Darfur","Education : Access to preschool education - FEMALES","Proportion",0.2593,0.0806,0.438
+16,"Central Darfur","Education : Access to basic education - FEMALES","Proportion",0.5858,0.4014,0.7702
+16,"Central Darfur","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.4753,0.3256,0.6251
+17,"East Darfur","Education : Access to preschool education - ALL children","Proportion",0.3242,0.205,0.4435
+17,"East Darfur","Education : Access to basic education - ALL children","Proportion",0.6234,0.5079,0.7389
+17,"East Darfur","Education : Access to education (preschool or basic) - ALL children","Proportion",0.5191,0.43,0.6082
+17,"East Darfur","Education : Access to preschool education - MALES","Proportion",0.3321,0.1986,0.4656
+17,"East Darfur","Education : Access to basic education - MALES","Proportion",0.6543,0.3996,0.909
+17,"East Darfur","Education : Access to education (preschool or basic) - MALES","Proportion",0.5354,0.4391,0.6318
+17,"East Darfur","Education : Access to preschool education - FEMALES","Proportion",0.3155,0.1864,0.4446
+17,"East Darfur","Education : Access to basic education - FEMALES","Proportion",0.5892,0.4485,0.73
+17,"East Darfur","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.4983,0.3943,0.6023
+6,"Kassala","Education : Access to preschool education - ALL children","Proportion",0.34,0.222,0.458
+6,"Kassala","Education : Access to basic education - ALL children","Proportion",0.7,0.5897,0.8102
+6,"Kassala","Education : Access to education (preschool or basic) - ALL children","Proportion",0.5976,0.4956,0.6995
+6,"Kassala","Education : Access to preschool education - MALES","Proportion",0.3382,0.1896,0.4868
+6,"Kassala","Education : Access to basic education - MALES","Proportion",0.7958,0.6915,0.9001
+6,"Kassala","Education : Access to education (preschool or basic) - MALES","Proportion",0.6633,0.5597,0.767
+6,"Kassala","Education : Access to preschool education - FEMALES","Proportion",0.3392,0.2045,0.4738
+6,"Kassala","Education : Access to basic education - FEMALES","Proportion",0.5965,0.4512,0.7417
+6,"Kassala","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.5217,0.3972,0.6462
+3,"Khartoum","Education : Access to preschool education - ALL children","Proportion",0.7855,0.663,0.908
+3,"Khartoum","Education : Access to basic education - ALL children","Proportion",0.957,0.9135,0.9999
+3,"Khartoum","Education : Access to education (preschool or basic) - ALL children","Proportion",0.9054,0.8471,0.9636
+3,"Khartoum","Education : Access to preschool education - MALES","Proportion",0.7855,0.6432,0.9278
+3,"Khartoum","Education : Access to basic education - MALES","Proportion",0.9515,0.897,0.9999
+3,"Khartoum","Education : Access to education (preschool or basic) - MALES","Proportion",0.9048,0.8429,0.9667
+3,"Khartoum","Education : Access to preschool education - FEMALES","Proportion",0.7903,0.654,0.9265
+3,"Khartoum","Education : Access to basic education - FEMALES","Proportion",0.9634,0.9216,0.9999
+3,"Khartoum","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.9088,0.8457,0.9719
+14,"North Darfur","Education : Access to preschool education - ALL children","Proportion",0.4479,0.2752,0.6207
+14,"North Darfur","Education : Access to basic education - ALL children","Proportion",0.7517,0.6356,0.8677
+14,"North Darfur","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6455,0.5352,0.7558
+14,"North Darfur","Education : Access to preschool education - MALES","Proportion",0.4427,0.2725,0.6129
+14,"North Darfur","Education : Access to basic education - MALES","Proportion",0.7578,0.6445,0.8712
+14,"North Darfur","Education : Access to education (preschool or basic) - MALES","Proportion",0.6407,0.5318,0.7495
+14,"North Darfur","Education : Access to preschool education - FEMALES","Proportion",0.4486,0.2683,0.6289
+14,"North Darfur","Education : Access to basic education - FEMALES","Proportion",0.74,0.609,0.8711
+14,"North Darfur","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.6456,0.5243,0.7669
+11,"North Kourdofan","Education : Access to preschool education - ALL children","Proportion",0.3158,0.2033,0.4283
+11,"North Kourdofan","Education : Access to basic education - ALL children","Proportion",0.7685,0.6847,0.8523
+11,"North Kourdofan","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6443,0.5627,0.7259
+11,"North Kourdofan","Education : Access to preschool education - MALES","Proportion",0.2955,0.1744,0.4166
+11,"North Kourdofan","Education : Access to basic education - MALES","Proportion",0.7847,0.6934,0.8759
+11,"North Kourdofan","Education : Access to education (preschool or basic) - MALES","Proportion",0.6553,0.5703,0.7404
+11,"North Kourdofan","Education : Access to preschool education - FEMALES","Proportion",0.3319,0.1954,0.4683
+11,"North Kourdofan","Education : Access to basic education - FEMALES","Proportion",0.7519,0.6569,0.8468
+11,"North Kourdofan","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.6372,0.546,0.7283
+1,"Northern","Education : Access to preschool education - ALL children","Proportion",0.8291,0.7206,0.9376
+1,"Northern","Education : Access to basic education - ALL children","Proportion",0.9628,0.9206,0.9999
+1,"Northern","Education : Access to education (preschool or basic) - ALL children","Proportion",0.9162,0.8563,0.9762
+1,"Northern","Education : Access to preschool education - MALES","Proportion",0.8274,0.6941,0.9607
+1,"Northern","Education : Access to basic education - MALES","Proportion",0.9655,0.9211,0.9999
+1,"Northern","Education : Access to education (preschool or basic) - MALES","Proportion",0.9161,0.8515,0.9806
+1,"Northern","Education : Access to preschool education - FEMALES","Proportion",0.8341,0.7005,0.9677
+1,"Northern","Education : Access to basic education - FEMALES","Proportion",0.9625,0.9108,0.9999
+1,"Northern","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.9184,0.8508,0.9859
+5,"Red Sea","Education : Access to preschool education - ALL children","Proportion",0.3852,0.2088,0.5615
+5,"Red Sea","Education : Access to basic education - ALL children","Proportion",0.8137,0.6414,0.986
+5,"Red Sea","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6596,0.4948,0.8243
+5,"Red Sea","Education : Access to preschool education - MALES","Proportion",0.4045,0.1797,0.6294
+5,"Red Sea","Education : Access to basic education - MALES","Proportion",0.7995,0.5988,0.9999
+5,"Red Sea","Education : Access to education (preschool or basic) - MALES","Proportion",0.6557,0.4811,0.8303
+5,"Red Sea","Education : Access to preschool education - FEMALES","Proportion",0.3698,0.1714,0.5682
+5,"Red Sea","Education : Access to basic education - FEMALES","Proportion",0.8304,0.6471,0.9999
+5,"Red Sea","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.6629,0.4773,0.8484
+2,"River Nile","Education : Access to preschool education - ALL children","Proportion",0.7241,0.6005,0.8478
+2,"River Nile","Education : Access to basic education - ALL children","Proportion",0.8951,0.824,0.9663
+2,"River Nile","Education : Access to education (preschool or basic) - ALL children","Proportion",0.8432,0.7527,0.9337
+2,"River Nile","Education : Access to preschool education - MALES","Proportion",0.7251,0.5759,0.8743
+2,"River Nile","Education : Access to basic education - MALES","Proportion",0.8847,0.7938,0.9756
+2,"River Nile","Education : Access to education (preschool or basic) - MALES","Proportion",0.8366,0.7509,0.9223
+2,"River Nile","Education : Access to preschool education - FEMALES","Proportion",0.7243,0.5714,0.8773
+2,"River Nile","Education : Access to basic education - FEMALES","Proportion",0.908,0.8327,0.9833
+2,"River Nile","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.8513,0.7579,0.9447
+8,"Sinar","Education : Access to preschool education - ALL children","Proportion",0.6355,0.5139,0.7572
+8,"Sinar","Education : Access to basic education - ALL children","Proportion",0.8068,0.6988,0.9148
+8,"Sinar","Education : Access to education (preschool or basic) - ALL children","Proportion",0.7524,0.6515,0.8534
+8,"Sinar","Education : Access to preschool education - MALES","Proportion",0.6286,0.4862,0.771
+8,"Sinar","Education : Access to basic education - MALES","Proportion",0.8036,0.6912,0.916
+8,"Sinar","Education : Access to education (preschool or basic) - MALES","Proportion",0.7503,0.649,0.8516
+8,"Sinar","Education : Access to preschool education - FEMALES","Proportion",0.6481,0.5015,0.7947
+8,"Sinar","Education : Access to basic education - FEMALES","Proportion",0.8107,0.6923,0.929
+8,"Sinar","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.7575,0.6438,0.8712
+15,"South Darfur","Education : Access to preschool education - ALL children","Proportion",0.3909,0.2559,0.5259
+15,"South Darfur","Education : Access to basic education - ALL children","Proportion",0.6881,0.5673,0.8089
+15,"South Darfur","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6032,0.4841,0.7222
+15,"South Darfur","Education : Access to preschool education - MALES","Proportion",0.3838,0.2281,0.5394
+15,"South Darfur","Education : Access to basic education - MALES","Proportion",0.7062,0.5792,0.8331
+15,"South Darfur","Education : Access to education (preschool or basic) - MALES","Proportion",0.6185,0.4964,0.7406
+15,"South Darfur","Education : Access to preschool education - FEMALES","Proportion",0.3902,0.2328,0.5475
+15,"South Darfur","Education : Access to basic education - FEMALES","Proportion",0.6643,0.5047,0.8239
+15,"South Darfur","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.5882,0.4513,0.725
+12,"South Kourdofan","Education : Access to preschool education - ALL children","Proportion",0.3755,0.234,0.517
+12,"South Kourdofan","Education : Access to basic education - ALL children","Proportion",0.6853,0.5496,0.821
+12,"South Kourdofan","Education : Access to education (preschool or basic) - ALL children","Proportion",0.5968,0.4674,0.7262
+12,"South Kourdofan","Education : Access to preschool education - MALES","Proportion",0.3639,0.183,0.5449
+12,"South Kourdofan","Education : Access to basic education - MALES","Proportion",0.7144,0.5843,0.8445
+12,"South Kourdofan","Education : Access to education (preschool or basic) - MALES","Proportion",0.6151,0.4857,0.7446
+12,"South Kourdofan","Education : Access to preschool education - FEMALES","Proportion",0.3897,0.2219,0.5574
+12,"South Kourdofan","Education : Access to basic education - FEMALES","Proportion",0.6535,0.5065,0.8005
+12,"South Kourdofan","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.5794,0.4424,0.7163
+18,"West Darfur","Education : Access to preschool education - ALL children","Proportion",0.2241,0.1295,0.3187
+18,"West Darfur","Education : Access to basic education - ALL children","Proportion",0.6602,0.529,0.7913
+18,"West Darfur","Education : Access to education (preschool or basic) - ALL children","Proportion",0.5071,0.4049,0.6092
+18,"West Darfur","Education : Access to preschool education - MALES","Proportion",0.2257,0.1186,0.3328
+18,"West Darfur","Education : Access to basic education - MALES","Proportion",0.6972,0.5616,0.8329
+18,"West Darfur","Education : Access to education (preschool or basic) - MALES","Proportion",0.5309,0.4248,0.637
+18,"West Darfur","Education : Access to preschool education - FEMALES","Proportion",0.2115,0.1078,0.3151
+18,"West Darfur","Education : Access to basic education - FEMALES","Proportion",0.627,0.4769,0.7771
+18,"West Darfur","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.4847,0.3762,0.5932
+13,"West Kourdofan","Education : Access to preschool education - ALL children","Proportion",0.3655,0.2295,0.5016
+13,"West Kourdofan","Education : Access to basic education - ALL children","Proportion",0.7486,0.6246,0.8726
+13,"West Kourdofan","Education : Access to education (preschool or basic) - ALL children","Proportion",0.6179,0.503,0.7328
+13,"West Kourdofan","Education : Access to preschool education - MALES","Proportion",0.3546,0.2011,0.5081
+13,"West Kourdofan","Education : Access to basic education - MALES","Proportion",0.7719,0.651,0.8927
+13,"West Kourdofan","Education : Access to education (preschool or basic) - MALES","Proportion",0.6321,0.5104,0.7539
+13,"West Kourdofan","Education : Access to preschool education - FEMALES","Proportion",0.3772,0.214,0.5404
+13,"West Kourdofan","Education : Access to basic education - FEMALES","Proportion",0.7269,0.5926,0.8611
+13,"West Kourdofan","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.6051,0.4757,0.7345
+10,"White Nile","Education : Access to preschool education - ALL children","Proportion",0.579,0.4547,0.7034
+10,"White Nile","Education : Access to basic education - ALL children","Proportion",0.8476,0.7457,0.9495
+10,"White Nile","Education : Access to education (preschool or basic) - ALL children","Proportion",0.7621,0.6648,0.8594
+10,"White Nile","Education : Access to preschool education - MALES","Proportion",0.5372,0.3912,0.6833
+10,"White Nile","Education : Access to basic education - MALES","Proportion",0.8358,0.734,0.9376
+10,"White Nile","Education : Access to education (preschool or basic) - MALES","Proportion",0.7451,0.6451,0.8451
+10,"White Nile","Education : Access to preschool education - FEMALES","Proportion",0.619,0.4725,0.7655
+10,"White Nile","Education : Access to basic education - FEMALES","Proportion",0.8591,0.7454,0.9728
+10,"White Nile","Education : Access to education (preschool or basic) - FEMALES","Proportion",0.7851,0.6784,0.8918
