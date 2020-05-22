@@ -95,6 +95,10 @@ for(i in stateNames) {
   allStates <- rbind(allStates, resultsCurrentState)
 }
 
+allStates$Indicator <- stringr::str_replace_all(string = allStates$Indicator,
+                                                pattern = "EPI : Full EPI coverage for children below 12 months \\(without rotavirus vaccine\\)",
+                                                replacement = "EPI : Full EPI coverage for children below 12 months")
+
 ## Save allStates as CSV
 write.csv(x = allStates, file = "resultsS3M/stateResults.csv", row.names = FALSE)
 

@@ -1,0 +1,227 @@
+dataFrame,varSet,varGroup,varType,varNames,varLabel,probitClasses,reportBySex
+CARER.ANC,ANC coverage,Carers,Mean,ancGestAge,ANC : Gestational age (months) at first ANC visit for most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Mean,visitsANC,ANC : Number of ANC visits during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,anc0,ANC : Did not attend ANC during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,anc4,ANC : Attended four or more ANC visits during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Mean,ifa,ANC : Number of months FeFol tablets consumed during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,anyIFA,ANC : Consumed any FeFol tablets during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,ifa90,ANC : Consumed FeFol tablets for at least 3 months during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,vitA,ANC : Received Vitamin A tablets postpartum (most recent birth),NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,nightBlind,ANC : Experienced night-blindness during most recent pregnancy,NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,postNatal,ANC : Received postnatal care (most recent birth),NA,FALSE
+CARER.ANC,ANC coverage,Carers,Proportion,tetanusDoses,ANC : Received tetanus vaccination (2 doses),NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,GMP,Health & Nutrition Messages : Carer aware of growth monitoring program,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,CMAM,Health & Nutrition Messages : Carer aware of CMAM,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,info,Health & Nutrition Messages : Carer received health and nutrition messages,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelTV1,Health & Nutrition Messages : Preferred TV channel : Sudan TV,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelTV2,Health & Nutrition Messages : Preferred TV channel : Local State TV,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelTV3,Health & Nutrition Messages : Preferred TV channel : Blue Nile TV,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelTV4,Health & Nutrition Messages : Preferred TV channel : Sudania 24,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelTV5,Health & Nutrition Messages : Preferred TV channel : Umdurman TV,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelRadio1,Health & Nutrition Messages : Preferred radio station : National Radio,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelRadio2,Health & Nutrition Messages : Preferred radio station : Local State Radio,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelRadio3,Health & Nutrition Messages : Preferred radio station : FM100,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelRadio4,Health & Nutrition Messages : Preferred radio station : Community Radio,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,channelRadio5,Health & Nutrition Messages : Preferred radio station : Darfur Radio,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.socialMedia,Health & Nutrition Messages : Preferred medium : Social media,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.SMS,Health & Nutrition Messages : Preferred medium : Mobile phone SMS,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.internet,Health & Nutrition Messages : Preferred medium : Internet,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.outreachWorkers,Health & Nutrition Messages : Preferred medium : Outreach workers,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.posters,Health & Nutrition Messages : Preferred medium : Posters,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.radio,Health & Nutrition Messages : Preferred medium : Radio,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredChannel.TV,Health & Nutrition Messages : Preferred medium : TV,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredProgram.news,Health & Nutrition Messages : Preferred programs : News,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredProgram.serials,Health & Nutrition Messages : Preferred programs : Serials,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredProgram.talkShow,Health & Nutrition Messages : Preferred programs : Talk shows,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredProgram.kidsPrograms,Health & Nutrition Messages : Preferred programs : Children's programs,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredProgram.documentaries,Health & Nutrition Messages : Preferred programs : Documentaries,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredTime.morning,Health & Nutrition Messages : Preferred time to receive health messages : Morning,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredTime.afternoon,Health & Nutrition Messages : Preferred time to receive health messages : Afternoon,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredTime.evening,Health & Nutrition Messages : Preferred time to receive health messages : Evening,NA,FALSE
+CARER.INFO,Health information,Carers,Proportion,preferredTime.night,Health & Nutrition Messages : Preferred time to receive health messages : Night,NA,FALSE
+CARER.ANTHRO,Maternal anthropometry,Carers,PROBIT,muac,Carer : Mid-upper arm circumference (mm),210;185,FALSE
+CARER.ANTHRO,Maternal anthropometry,Carers,Proportion,muac.lt.230,Carer : Mid-upper arm circumference < 230 mm (as in S3M-I),NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Mean,T2HF1,Household : Time to health facility in hours (mean),NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,T2HF2,Household : Time to health facility < 30 minutes,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,T2HF3,Household : Time to health facility < 1 hour,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,healthWorker.CHW,Carer : CHW present at health facility within area,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,healthWorker.medicalAssistant,Carer : Medical assistant present at health facility within area,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,healthWorker.villageMidwife,Carer : Village midwife present at health facility within area,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,healthWorker.any,Carer : Any health worker present at health facility within area,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,iodisedSaltNone,Household : Salt iodization : Substandard or no iodization,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,iodisedSaltAny,Household : Salt iodization : Any iodization,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,iodisedSaltAdequate,Household : Salt iodization : Adequate (> 15 ppm),NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,married,Carer : Marital status : Married,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,single,Carer : Marital status : Single (never married),NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,divorced,Carer : Marital status : Divorced,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,widowed,Carer : Marital status : Widowed,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,married15,Carer (aged 20 - 24) : Married at or before 15 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,married18,Carer (aged 20 - 24) : Married at or before 18 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,firstParity15to19,Carer (aged 20 - 24) : Carers first giving birth between 15 and 19 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Mean,ageFirstparity,Carer : Age at first parity,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm,Carer : Carer is circumcised (FGM) : All ages,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgmMICS,Carer : Carer is circumcised (FGM) : 15 - 49 years (MICS compatible),NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.15.19,Carer : Carer is circumcised (FGM) : 15 - 19 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.20.24,Carer : Carer is circumcised (FGM) : 20 - 24 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.25.29,Carer : Carer is circumcised (FGM) : 25 - 29 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.30.34,Carer : Carer is circumcised (FGM) : 30 - 34 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.35.39,Carer : Carer is circumcised (FGM) : 35 - 39 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.40.44,Carer : Carer is circumcised (FGM) : 40 - 44 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.45.49,Carer : Carer is circumcised (FGM) : 45 - 49 years of age,NA,FALSE
+CARER.MISC,Miscellaneous indicators (carers),Carers,Proportion,fgm.50.99,Carer : Carer is circumcised (FGM) : 50 years or older,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Mean,dangerScore,Danger Signs : Number of danger signs identified by carer (max = 5),NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,notFeeding,Danger Signs : Carer identified not feeding as danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,convulsions,Danger Signs : Carer identified convulsions as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,vomiting,Danger Signs : Carer identified vomiting as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,bloodyDiarrhoea,Danger Signs : Carer identified bloody diarrhoea as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,fever,Danger Signs : Carer identified fever as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,unconscious,Danger Signs : Carer identified loss of consciousness as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,becameSicker,Danger Signs : Carer identified becoming progressively sicker as a danger sign,NA,FALSE
+CARER.DANGER,Recognition of danger signs,Carers,Proportion,rapidBreathing,Danger Signs : Carer identified rapid / difficulty breathing as a danger sign,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG1,"Carer : Diet : Consumes grains, white roots and tubers, and plantains",NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG2,Carer : Diet : Consumes green leafy vegetables,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG3,Carer : Diet : Consumes vitamin A-rich fruits and vegetables,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG4,Carer : Diet : Consumes other fruits and vegetables,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG5,Carer : Diet : Consumes organ meat,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG6,"Carer : Diet : Consumes meat, poultry and fish",NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG7,Carer : Diet : Consumes eggs,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG8,Carer : Diet : Consumes legumes and pulses,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG9,Carer : Diet : Consumes nuts and seeds,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,FG10,Carer : Diet : Consumes dairy,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Mean,WDDS,Carer : Diet : Women's Dietary Diversity Score,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,MDDW,Carer : Diet : Minimum Dietary Diversity - Women,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,aProtein,Carer : Diet : Protein-rich animal sources,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,pProtein,Carer : Diet : Protein-rich plant sources,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,proteinRich,Carer : Diet : Protein-rich (any source),NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,pVitA,Carer : Diet : Consumes plant sources of vitamin A,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,aVitA,Carer : Diet : Consumes animal sources of vitamin A,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,xVitA,Carer : Diet : Consumes any source of vitamin A,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,ironRich,Carer : Diet : Consumes iron-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,caRich,Carer : Diet : Consumes calcium-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,znRich,Carer : Diet : Consumes zinc-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitB1,Carer : Diet : Consumes vitamin B1-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitB2,Carer : Diet : Consumes vitamin B2-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitB3,Carer : Diet : Consumes vitamin B3-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitB6,Carer : Diet : Consumes vitamin B6-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitB12,Carer : Diet : Consumes vitamin B12-rich foods,NA,FALSE
+CARER.WDDS,Women's dietary diversity score,Carers,Proportion,vitBcomplex,Carer : Diet : Consumed vitamin B1 / B2 / B3 / B6 / B12-rich foods,NA,FALSE
+ROSTER.REGISTRATION,Birth registration,Child,Proportion,registered,Child : Child has a birth certificate / birth has been registered,NA,FALSE
+CHILD.ITN,Child survival programmes,Child,Proportion,itn,Child : Slept under ITN on previous night,NA,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,PROBIT,muac,Child : Mid-upper arm circumference (mm),125;115,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,PROBIT,haz,Child : Height-for-age z-score,-2;-3,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,PROBIT,waz,Child : Weight-for-age z-score,-2;-3,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,PROBIT,whz,Child : Weight-for-height z-score,-2;-3,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,Proportion,oedema,Child : Oedema,NA,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,Proportion,overweightWHZ,Child : Overweight (WHZ > 2),NA,FALSE
+CHILD.ANTHRO,Childhood anthropometry,Child,Proportion,obesityWHZ,Child : Obese (WHZ > 3),NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,diarrhoea,Child : Period prevalence of diarrhoea,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,ari,Child : Period prevalence of ARI,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,fever,Child : Period prevalence of fever,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,helpDia,Child : Visited health facility for diarrhoea,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,helpARI,Child : Visited health facility for ARI,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatARI,Child : Provided treatment for ARI,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatDia.ors,Child : Provided treatment for diarrhoea: ORS only,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatDia.orsZn,Child : Provided treatment for diarrhoea: ORS with zinc,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatDia.orsAny,Child : Provided treatment for diarrhoea: Any ORS,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatDia.zn,Child : Provided treatment for diarrhoea: Zinc only,NA,FALSE
+CHILD.DISEASE,Childhood illness,Child,Proportion,treatDia.dk,Child : Provided treatment for diarrhoea: Don't know,NA,FALSE
+CHILD.FGM,Circumcision (FGM) in children,Child,Proportion,circumcised,Child : Circumcised (FGM) : All ages,NA,FALSE
+CHILD.FGM,Circumcision (FGM) in children,Child,LOESS,circumcised14,Child : Circumcised (FGM) : 14 years of age,NA,FALSE
+CHILD.FGM,Circumcision (FGM) in children,Child,Proportion,circumcised8,Child : Circumcised (FGM) : below 8 years of age,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,accessPreSchool,Education : Access to preschool education,NA,TRUE
+ROSTER.EDU,Education,Child,Proportion,accessBasicEducation,Education : Access to basic education,NA,TRUE
+ROSTER.EDU,Education,Child,Proportion,accessEducation,Education : Access to education (preschool or basic),NA,TRUE
+ROSTER.EDU,Education,Child,Proportion,mixedEducation,Education : Reason for not attending school : Mixed education,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,noSchools,Education : Reason for not attending school : No schools,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,noWASH,Education : Reason for not attending school : No toilets or water in school,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,illDisability,Education : Reason for not attending school : Illness or disability,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,schoolFar,Education : Reason for not attending school : School is too far from home,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,childWorking,Education : Reason for not attending school : Child is working,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,earlyMarriage,Education : Reason for not attending school : Early marriage,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,schoolFees,Education : Reason for not attending school : School fees,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,displacement,Education : Reason for not attending school : Displacement,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,other,Education : Reason for not attending school : Other,NA,FALSE
+ROSTER.EDU,Education,Child,Proportion,everAttendedSchool,Education : Ever attended school,NA,FALSE
+CHILD.SCREEN,GM / GMP and screening using MUAC,Child,Proportion,muacPreviousMonth,Health & Nutrition Programming : MUAC screening in past month,NA,FALSE
+CHILD.SCREEN,GM / GMP and screening using MUAC,Child,Proportion,muacPreviousThreeMonths,Health & Nutrition Programming : MUAC screening in past three months,NA,FALSE
+CHILD.SCREEN,GM / GMP and screening using MUAC,Child,Proportion,gmpCoverage,Health & Nutrition Programming : GM / GMP coverage,NA,FALSE
+CHILD.SCREEN,GM / GMP and screening using MUAC,Child,Proportion,iycfCounselling,Health & Nutrition Programming : IYCF counselling / messaging coverage,NA,FALSE
+CHILD.INSURED,Health insurance coverage,Child,Proportion,healthInsurance,Child : Child has health insurance,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,EBF,IYCF : Exclusive breastfeeding,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,CBF,IYCF : Age-appropriate continuing breastfeeding,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,DDD,IYCF : Age-appropriate dietary diversity,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,MFD,IYCF : Age-appropriate meal frequency,NA,FALSE
+CHILD.ICFI,ICFI,Child,Mean,ICFI,IYCF : Infant and child feeding index (ICFI),NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,ICFI6,IYCF : Good IYCF (children aged 6 months or older),NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,IYCF,IYCF : Good IYCF (children aged between 0 and 24 months),NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,aProtein,IYCF : Diet : Protein-rich animal sources,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,pProtein,IYCF : Diet : Protein-rich plant sources,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,proteinRich,IYCF : Diet : Protein-rich (any source),NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,pVitA,IYCF : Diet : Consumes plant sources of vitamin A,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,aVitA,IYCF : Diet : Consumes animal sources of vitamin A,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,xVitA,IYCF : Diet : Consumes any source of vitamin A,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,ironRich,IYCF : Diet : Consumes iron-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,caRich,IYCF : Diet : Consumes calcium-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,znRich,IYCF : Diet : Consumes zinc-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitB1,IYCF : Diet : Consumes vitamin B1-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitB2,IYCF : Diet : Consumes vitamin B2-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitB3,IYCF : Diet : Consumes vitamin B3-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitB6,IYCF : Diet : Consumes vitamin B6-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitB12,IYCF : Diet : Consumes vitamin B12-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,vitBcomplex,IYCF : Diet : Consumed vitamin B1 / B2 / B3 / B6 / B12-rich foods,NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,compFeed,"IYCF : Introduction of solid, semi-solid or soft foods for children 6-8 months",NA,FALSE
+CHILD.ICFI,ICFI,Child,Mean,meanICFI.6to8,IYCF : ICFI (children aged 6-8 months),NA,FALSE
+CHILD.ICFI,ICFI,Child,Proportion,icfi6.6to8,IYCF : Good IYCF (children aged 6-8 months),NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,vaccineRecord,EPI : Vaccine card available / seen for children below 24 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coverageBCG,EPI : BCG coverage for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coveragePenta1,EPI : First dose pentavalent vaccine coverage for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coveragePenta3,EPI : Third dose pentavelent vaccine coverage for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coverageOPV1,EPI : First dose OPV coverage for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coverageOPV3,EPI : Third dose OPV coverage for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coverageMeasles1,EPI : First dose measles vaccine for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,coverageMeasles2,EPI : Second dose measles vaccine for children below 12 months,NA,FALSE
+CHILD.EPI,Immunisation coverage,Child,Proportion,fullEPI.noRota,EPI : Full EPI coverage for children below 12 months,NA,FALSE
+CHILD.VITA,Vitamin A supplementation,Child,Proportion,vitA,Child : Vitamin A supplementation coverage,NA,FALSE
+CARER.HB,Haemoglobin (carers),Haemoglobin,Mean,hb,Carer : Haemoglobin (g/dl),NA,FALSE
+CARER.HB,Haemoglobin (carers),Haemoglobin,Proportion,any,Carer : Any anaemia,NA,FALSE
+CARER.HB,Haemoglobin (carers),Haemoglobin,Proportion,mild,Carer : Mild anaemia,NA,FALSE
+CARER.HB,Haemoglobin (carers),Haemoglobin,Proportion,moderate,Carer : Moderate anaemia,NA,FALSE
+CARER.HB,Haemoglobin (carers),Haemoglobin,Proportion,severe,Carer : Severe anaemia,NA,FALSE
+CHILD.HB,Haemoglobin (children),Haemoglobin,Mean,hb,Child : Haemoglobin (g/dl),NA,FALSE
+CHILD.HB,Haemoglobin (children),Haemoglobin,Proportion,any,Child : Any anaemia,NA,FALSE
+CHILD.HB,Haemoglobin (children),Haemoglobin,Proportion,mild,Child : Mild anaemia,NA,FALSE
+CHILD.HB,Haemoglobin (children),Haemoglobin,Proportion,moderate,Child : Moderate anaemia,NA,FALSE
+CHILD.HB,Haemoglobin (children),Haemoglobin,Proportion,severe,Child : Severe anaemia,NA,FALSE
+HH.CSI,Food security,Household,Proportion,noCSI,Household : CSI = 0,NA,FALSE
+HH.CSI,Food security,Household,Proportion,lowCSI,Household : Low CSI,NA,FALSE
+HH.CSI,Food security,Household,Proportion,moderateCSI,Household : Moderate CSI,NA,FALSE
+HH.CSI,Food security,Household,Proportion,highCSI,Household : High CSI,NA,FALSE
+PLW.MUAC,MUAC.PLW,PLW,Mean,muac,PLW carers / other PLW : MUAC,NA,FALSE
+PLW.MUAC,MUAC.PLW,PLW,Proportion,muac.lt.230,PLW carers / other PLW : MUAC < 230 mm,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Mean,handwashingScore,Carer : WASH : Number of appropriate hand-washing events identified,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,handwashingGood,Carer : WASH : Identified five key hand-washing times,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,afterDefecation,Carer : WASH : Hand-washing : After defecation,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,afterCleaningChild,Carer : WASH : Hand-washing : After cleaning child,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,beforeEating,Carer : WASH : Hand-washing : Before eating,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,beforeFeeding,Carer : WASH : Hand-washing : Before feeding child,NA,FALSE
+CARER.HANDWASH,WASH (Carer),WASH,Proportion,beforeCooking,Carer : WASH : Hand-washing : Before preparing food,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,W1,WASH : Uses improved drinking water sources,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,W1A,WASH : Improved drinking water source within 30 minutes,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,W3,WASH : Uses improved toilet facilities,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,W4,WASH : Uses non-shared improved toilet facilities,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,openDefecation,WASH : Open defecation,NA,FALSE
+HH.WASH,WASH (Household),WASH,Proportion,handwashing,WASH : Has basic hand-washing facilities,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws1,WASH : Public pipe network in house,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws2,WASH : Public pipe network in yard,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws3,WASH : Public water pipe,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws4,WASH : Protected ground water,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws5,WASH : Protected well,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws6,WASH : Filtered surface water,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws7,WASH : Water transferred by car from improved sources,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws1a,WASH : Public pipe network in house within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws2a,WASH : Public pipe network in yard within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws3a,WASH : Public water pipe within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws4a,WASH : Protected ground water within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws5a,WASH : Protected well within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws6a,WASH : Filtered surface water within 30 minutes,NA,FALSE
+XTRA.WASH,WASH (Household),WASH,Proportion,ws7a,WASH : Water transferred by car from improved sources within 30 minutes,NA,FALSE
